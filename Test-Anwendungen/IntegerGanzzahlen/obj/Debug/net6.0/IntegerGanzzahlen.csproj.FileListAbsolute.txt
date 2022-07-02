@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\bin\Debug\net6.0\IntegerGanzzahlen.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\bin\Debug\net6.0\IntegerGanzzahlen.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\bin\Debug\net6.0\IntegerGanzzahlen.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\bin\Debug\net6.0\IntegerGanzzahlen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\bin\Debug\net6.0\IntegerGanzzahlen.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\refint\IntegerGanzzahlen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\IntegerGanzzahlen.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\IntegerGanzzahlen\obj\Debug\net6.0\ref\IntegerGanzzahlen.dll
