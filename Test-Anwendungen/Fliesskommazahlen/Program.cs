@@ -9,9 +9,9 @@ Console.WriteLine($"Der PositiveInfinity-Wert von float lautet: {float.PositiveI
 Console.WriteLine();
 
 // double-Werte
-Console.WriteLine($"Die niedrigste Floatgröße lautet: {double.MinValue}");
-Console.WriteLine($"Die höchste Floatgröße lautet: {double.MaxValue}");
-Console.WriteLine($"Der Epsilon-Wert von float lautet: {double.Epsilon}");
-Console.WriteLine($"Der NaN-Wert von float lautet: {double.NaN}");
-Console.WriteLine($"Der NegativeInfinity-Wert von float lautet: {double.NegativeInfinity}");
-Console.WriteLine($"Der PositiveInfinity-Wert von float lautet: {double.PositiveInfinity}");
+Console.WriteLine($"Die niedrigste Doublegröße lautet: {double.MinValue}");
+Console.WriteLine($"Die höchste Doublegröße lautet: {double.MaxValue}");
+Console.WriteLine($"Der Epsilon-Wert von double lautet: {double.Epsilon}");
+Console.WriteLine($"Der NaN-Wert von double lautet: {double.NaN}");
+Console.WriteLine($"Der NegativeInfinity-Wert von double lautet: {double.NegativeInfinity}");
+Console.WriteLine($"Der PositiveInfinity-Wert von double lautet: {double.PositiveInfinity}");
