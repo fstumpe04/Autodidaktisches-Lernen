@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mehrdimensionale Arrays/1.0.0": {
+        "runtime": {
+          "Mehrdimensionale Arrays.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mehrdimensionale Arrays/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
