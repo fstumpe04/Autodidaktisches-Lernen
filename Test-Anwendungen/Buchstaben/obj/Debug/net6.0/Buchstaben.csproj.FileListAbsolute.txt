@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\bin\Debug\net6.0\Buchstaben.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\bin\Debug\net6.0\Buchstaben.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\bin\Debug\net6.0\Buchstaben.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\bin\Debug\net6.0\Buchstaben.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\bin\Debug\net6.0\Buchstaben.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\refint\Buchstaben.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\Buchstaben.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Buchstaben\obj\Debug\net6.0\ref\Buchstaben.dll
