@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\bin\Debug\net6.0\Listen.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\bin\Debug\net6.0\Listen.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\bin\Debug\net6.0\Listen.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\bin\Debug\net6.0\Listen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\bin\Debug\net6.0\Listen.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\refint\Listen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\Listen.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Listen\obj\Debug\net6.0\ref\Listen.dll
