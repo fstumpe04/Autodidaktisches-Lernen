@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\bin\Debug\net6.0\ArithmethischeOperatoren.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\bin\Debug\net6.0\ArithmethischeOperatoren.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\bin\Debug\net6.0\ArithmethischeOperatoren.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\bin\Debug\net6.0\ArithmethischeOperatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\bin\Debug\net6.0\ArithmethischeOperatoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\refint\ArithmethischeOperatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ArithmethischeOperatoren.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ArithmethischeOperatoren\obj\Debug\net6.0\ref\ArithmethischeOperatoren.dll
