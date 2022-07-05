@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\bin\Debug\net6.0\Booleans und Vergleichsoperatoren.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\bin\Debug\net6.0\Booleans und Vergleichsoperatoren.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\bin\Debug\net6.0\Booleans und Vergleichsoperatoren.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\bin\Debug\net6.0\Booleans und Vergleichsoperatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\bin\Debug\net6.0\Booleans und Vergleichsoperatoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\refint\Booleans und Vergleichsoperatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\Booleans und Vergleichsoperatoren.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Booleans und Vergleichsoperatoren\obj\Debug\net6.0\ref\Booleans und Vergleichsoperatoren.dll

@@ -1,5 +1,5 @@
-﻿int x = 42;
-int y = 1337;
+﻿int x = 5;
+int y = 3;
 int z = x+y;
 System.Console.WriteLine($"Der Plus-Operator (+) ergibt {z}");
 z = x-y;
@@ -10,6 +10,13 @@ z = x/y;
 System.Console.WriteLine($"Der Geteilt-Operator (/) ergibt {z}");
 z = x%y;
 System.Console.WriteLine($"Der Modulo-Operator (%) ergibt {z}");
+
+// Exponenten
+x = 2;
+y = 11;
+
+z = (int)Math.Pow(x,y);
+System.Console.WriteLine($"Die Exponente lautet {z}");
 
 // Inkrement
 x = 5;
