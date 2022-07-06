@@ -571,9 +571,9 @@ Nennt man meißtens foo o. bar o. baz. und man definiert sie mit dem Schlüsselw
 `}`  
 
 Diese Funktion kann man nun über den Funktionsnamen und den runden Klammern aufrufen und z.B. in einer Schleife mehrfach ausführen.  
-`for (int i = 0; i < 10; i++){`
-    `foo();`
-`}`
+`for (int i = 0; i < 10; i++){`  
+    `foo();`  
+`}`  
 
 Diese Art kennt man auch aus der Mathematik.  
 `f(x) = 2*x`  
