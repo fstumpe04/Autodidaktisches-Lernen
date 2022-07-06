@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\bin\Debug\net6.0\break und continue.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\bin\Debug\net6.0\break und continue.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\bin\Debug\net6.0\break und continue.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\bin\Debug\net6.0\break und continue.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\bin\Debug\net6.0\break und continue.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\refint\break und continue.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\break und continue.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\break und continue\obj\Debug\net6.0\ref\break und continue.dll
