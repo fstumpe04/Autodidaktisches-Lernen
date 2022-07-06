@@ -31,7 +31,7 @@ geil
 // break
 meinStringArray = new string[] {"dieses", "tut", "ist", "geil","42", "hi", "wtf", "ist"};
 foreach (string element in meinStringArray)
-{
+{ 
     System.Console.WriteLine(element);
     if (element == "geil")
     {
