@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\bin\Debug\net6.0\for-Schleife.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\bin\Debug\net6.0\for-Schleife.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\bin\Debug\net6.0\for-Schleife.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\bin\Debug\net6.0\for-Schleife.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\bin\Debug\net6.0\for-Schleife.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\refint\for-Schleife.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\for-Schleife.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\for-Schleife\obj\Debug\net6.0\ref\for-Schleife.dll
