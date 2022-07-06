@@ -1,4 +1,4 @@
-# Lerntagebuch 04.07.2022
+# Lerntagebuch 05.07.2022
 Heute habe ich etwas zu den folgenden Themen gelernt:
 1. Booleans und Vergleichsoperatoren
 2. Logische Operatoren
