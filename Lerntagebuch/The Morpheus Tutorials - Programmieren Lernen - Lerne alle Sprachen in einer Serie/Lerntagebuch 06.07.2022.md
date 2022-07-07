@@ -1,4 +1,4 @@
-# Lerntagebuch 04.07.2022
+# Lerntagebuch 06.07.2022
 Heute habe ich etwas zu den folgenden Themen gelernt:
 1. for-Schleifen
 2. foreach-Schleifen
