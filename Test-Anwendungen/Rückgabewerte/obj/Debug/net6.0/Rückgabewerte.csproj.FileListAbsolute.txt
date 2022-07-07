@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\bin\Debug\net6.0\Rückgabewerte.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\bin\Debug\net6.0\Rückgabewerte.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\bin\Debug\net6.0\Rückgabewerte.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\bin\Debug\net6.0\Rückgabewerte.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\bin\Debug\net6.0\Rückgabewerte.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\refint\Rückgabewerte.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\Rückgabewerte.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Rückgabewerte\obj\Debug\net6.0\ref\Rückgabewerte.dll
