@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\bin\Debug\net6.0\Call-by-Value vs Call-by-Reference.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\bin\Debug\net6.0\Call-by-Value vs Call-by-Reference.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\bin\Debug\net6.0\Call-by-Value vs Call-by-Reference.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\bin\Debug\net6.0\Call-by-Value vs Call-by-Reference.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\bin\Debug\net6.0\Call-by-Value vs Call-by-Reference.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\refint\Call-by-Value vs Call-by-Reference.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\Call-by-Value vs Call-by-Reference.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Call-by-Value vs Call-by-Reference\obj\Debug\net6.0\ref\Call-by-Value vs Call-by-Reference.dll
