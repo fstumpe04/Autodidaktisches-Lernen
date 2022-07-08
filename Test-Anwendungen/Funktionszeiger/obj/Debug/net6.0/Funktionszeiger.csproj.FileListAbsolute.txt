@@ -1,0 +1,15 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\bin\Debug\net6.0\Funktionszeiger.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\bin\Debug\net6.0\Funktionszeiger.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\bin\Debug\net6.0\Funktionszeiger.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\bin\Debug\net6.0\Funktionszeiger.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\bin\Debug\net6.0\Funktionszeiger.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\refint\Funktionszeiger.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\Funktionszeiger.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Funktionszeiger\obj\Debug\net6.0\ref\Funktionszeiger.dll
