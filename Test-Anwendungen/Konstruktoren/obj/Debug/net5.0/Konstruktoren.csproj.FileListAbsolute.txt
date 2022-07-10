@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\bin\Debug\net5.0\Konstruktoren.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\bin\Debug\net5.0\Konstruktoren.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\bin\Debug\net5.0\Konstruktoren.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\bin\Debug\net5.0\Konstruktoren.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\bin\Debug\net5.0\Konstruktoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\bin\Debug\net5.0\Konstruktoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\refint\Konstruktoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\Konstruktoren.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Konstruktoren\obj\Debug\net5.0\ref\Konstruktoren.dll
