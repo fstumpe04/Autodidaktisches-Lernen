@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\bin\Debug\net5.0\Zugriffsmodifikatoren.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\bin\Debug\net5.0\Zugriffsmodifikatoren.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\bin\Debug\net5.0\Zugriffsmodifikatoren.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\bin\Debug\net5.0\Zugriffsmodifikatoren.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\bin\Debug\net5.0\Zugriffsmodifikatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\bin\Debug\net5.0\Zugriffsmodifikatoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\refint\Zugriffsmodifikatoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\Zugriffsmodifikatoren.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Zugriffsmodifikatoren\obj\Debug\net5.0\ref\Zugriffsmodifikatoren.dll
