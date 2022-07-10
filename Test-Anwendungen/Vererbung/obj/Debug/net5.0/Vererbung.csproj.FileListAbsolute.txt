@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\bin\Debug\net5.0\Vererbung.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\bin\Debug\net5.0\Vererbung.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\bin\Debug\net5.0\Vererbung.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\bin\Debug\net5.0\Vererbung.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\bin\Debug\net5.0\Vererbung.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\bin\Debug\net5.0\Vererbung.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\refint\Vererbung.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\Vererbung.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vererbung\obj\Debug\net5.0\ref\Vererbung.dll
