@@ -1,0 +1,7 @@
+namespace TypeCasts
+{
+    class Schule
+    {
+        
+    }
+}
