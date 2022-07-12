@@ -46,7 +46,9 @@
 45. Getter/Setter
 46. Static - Klassenvariablen
 47. Vererbung 
-48. TypeCasts
+48. TypeCasts 
+49. instanceof
+50. typeof
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -995,3 +997,7 @@ Nun gibt es auch den DownTypeCast, welcher meißtens einen Typ zu gewiesen bekom
 `}`  
 
 Diese Verfahren kann zu einem Absturz des Programms führen, wenn die Variable der Eltern-KLasse zuvor mit dem `new`-Schlüsselwort instanziiert wurde.  
+## instanceof [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Das 'instanceof`-Schlüsselwort prüft ob eine Instanz von einer anderen Klasse bzw. deren Elternklassen instanziiert wurde. Dieses Schlüsselwort sollte man meiden zu nutzen, es macht aber sinn es anzuwenden bevor man einen TypeDownCast durchführt, den man auch nciht durchführen sollte,da dies unsicher ist.
+## typeof [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Das `typeof`-Schlüsselwort prüft ob eine Instanz von einer bestimmten Klasse instanziiert wurde.  
