@@ -1,0 +1,7 @@
+namespace InstanceOfTypeOf
+{
+    class Schule
+    {
+        
+    }
+}
