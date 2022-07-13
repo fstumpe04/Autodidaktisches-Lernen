@@ -49,6 +49,7 @@
 48. TypeCasts 
 49. instanceof
 50. typeof
+51. Überschreiben von Methoden
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1001,3 +1002,39 @@ Diese Verfahren kann zu einem Absturz des Programms führen, wenn die Variable d
 Das 'instanceof`-Schlüsselwort prüft ob eine Instanz von einer anderen Klasse bzw. deren Elternklassen instanziiert wurde. Dieses Schlüsselwort sollte man meiden zu nutzen, es macht aber sinn es anzuwenden bevor man einen TypeDownCast durchführt, den man auch nciht durchführen sollte,da dies unsicher ist.
 ## typeof [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Das `typeof`-Schlüsselwort prüft ob eine Instanz von einer bestimmten Klasse instanziiert wurde.  
+## Überschreiben von Methoden [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Um eine Methode einer Oberklasse zu überschreiben, schreibt man eine Methode genau so in der Unterklasse auf.  
+
+Dadurch erzeugt man eine dynamische Bindung die dafür sorgt, dass wenn man durch ein Array gemischt aus Ober- und Unterklassen iterriert, man immer die deklariert bzw. die überschrieben Methode nutzt.  
+`class Schule`  
+`{`  
+    `public int anzahlSchueler;`  
+    `public void neuerSchueler()`  
+    `{`  
+        `anzahlSchueler += 1;`  
+    `}`  
+`}`  
+`class Gymnasium : Schule`  
+`{`  
+    `private bool hasSchueler;`  
+    `public bool HasSchueler{get; set;}`  
+    `public Gymnasium()`  
+    `{`  
+        `HasSchueler = false;`  
+    `}`  
+    `public void neuerSchueler()`  
+    `{`  
+        `if (HasSchueler)`  
+        `{`  
+            `anzahlSchueler += 1;`  
+        `}`  
+    `}`  
+`}`  
+`Gymnasium g = new Gymnasium();`  
+`Schule meineSchule = g;`  
+`Gymnasium g2 = new Gymnasium();`  
+`Schule[] meineSchulen = {g, meineSchule, g2};`  
+`foreach (var item in meineSchulen)`  
+`{`  
+    `item.neuerSchueler();`  
+`}`  
