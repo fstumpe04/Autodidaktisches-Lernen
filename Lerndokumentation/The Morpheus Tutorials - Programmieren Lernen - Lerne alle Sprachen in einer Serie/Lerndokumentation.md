@@ -50,6 +50,7 @@
 49. instanceof
 50. typeof
 51. Überschreiben von Methoden
+52. Enums
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1038,3 +1039,13 @@ Dadurch erzeugt man eine dynamische Bindung die dafür sorgt, dass wenn man durc
 `{`  
     `item.neuerSchueler();`  
 `}`  
+## Enums [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Enum ist die Abkürzung von Enumeration was Aufzählung heisst.  
+
+Dieses Konstrukt ermöglichtes es eine aufeinanderfolgende Menge von zusammenhängenden Werten gruppieren zu können, dies sorgt für eine bessere Lesbarkeit des Codes.  
+`enum Richtung`  
+`{`  
+    `HOCH, RUNTER, LINKS, RECHTS`  
+`}`  
+
+Hier bennent man also einfach seine Aufzählung `enum Richtung` und schreibt einfach seine Werte mit einem Komma getrennt auf. Diese Werte sind unter der Haube Integer und werden standardmäßig wie beim Index bei Datenstrukturen beginnend mit dem Wert 0, 1, 2... usw. zugewiesen.  
