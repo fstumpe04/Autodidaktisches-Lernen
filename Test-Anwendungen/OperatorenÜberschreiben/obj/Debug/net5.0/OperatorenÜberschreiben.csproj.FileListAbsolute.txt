@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\bin\Debug\net5.0\OperatorenÜberschreiben.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\bin\Debug\net5.0\OperatorenÜberschreiben.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\bin\Debug\net5.0\OperatorenÜberschreiben.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\bin\Debug\net5.0\OperatorenÜberschreiben.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\bin\Debug\net5.0\OperatorenÜberschreiben.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\bin\Debug\net5.0\OperatorenÜberschreiben.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\refint\OperatorenÜberschreiben.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\OperatorenÜberschreiben.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\OperatorenÜberschreiben\obj\Debug\net5.0\ref\OperatorenÜberschreiben.dll

@@ -51,6 +51,7 @@
 50. typeof
 51. Überschreiben von Methoden
 52. Enums
+53. Operatoren überschreiben
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1049,3 +1050,14 @@ Dieses Konstrukt ermöglichtes es eine aufeinanderfolgende Menge von zusammenhä
 `}`  
 
 Hier bennent man also einfach seine Aufzählung `enum Richtung` und schreibt einfach seine Werte mit einem Komma getrennt auf. Diese Werte sind unter der Haube Integer und werden standardmäßig wie beim Index bei Datenstrukturen beginnend mit dem Wert 0, 1, 2... usw. zugewiesen.  
+## Operatoren überschreiben [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Das Überschreiben von Operatoren wird häufig bei komplexen Zahlen genutzt und wird wie eine Methode in eine Klasse geschrieben inkl. des Operators der überschrieben werden soll.  
+`class Complex{`  
+    `public int real;`  
+    `public int imaginär;`  
+    `// real + i * imaginär`  
+    `public static Complex operator +(Complex a, Complex b)`  
+    `{`  
+        `return new Complex(a.real + b.real, a.imaginär + b.imaginär);`  
+    `}`  
+`}`  
