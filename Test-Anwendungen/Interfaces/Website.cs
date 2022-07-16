@@ -1,6 +1,6 @@
 namespace Interfaces
 {
-    class Website
+    class Website : IBildung
     {
         public int AnzahlSchueler { get; set; }
         public void neuerSchueler()
