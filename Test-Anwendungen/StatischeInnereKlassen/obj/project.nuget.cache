@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MTlj9dLfPCEBXAEskRBoahFJTG1mYaXUEXTPNz2qkNcnuZLXPSrJ3fKcVjKZMT8FlStjBTT6Qs2zQD654YpisA==",
+  "success": true,
+  "projectFilePath": "D:\\Autodidaktisches Lernen\\Test-Anwendungen\\StatischeInnereKlassen\\StatischeInnereKlassen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stumpe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\bin\Debug\net5.0\StatischeInnereKlassen.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\bin\Debug\net5.0\StatischeInnereKlassen.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\bin\Debug\net5.0\StatischeInnereKlassen.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\bin\Debug\net5.0\StatischeInnereKlassen.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\bin\Debug\net5.0\StatischeInnereKlassen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\bin\Debug\net5.0\StatischeInnereKlassen.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\refint\StatischeInnereKlassen.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\StatischeInnereKlassen.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\StatischeInnereKlassen\obj\Debug\net5.0\ref\StatischeInnereKlassen.dll
