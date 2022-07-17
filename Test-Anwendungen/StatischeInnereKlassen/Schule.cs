@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 namespace StatischeInnereKlassen
 {
     public class Schule
