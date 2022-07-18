@@ -59,7 +59,8 @@
 58. Der Zugriffsmodifikator protected
 59. Statische innere Klassen
 60. Innere Klassen
-61. Anonyme innere Klassen
+61. Anonyme innere Klassen 
+62. Module
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1203,4 +1204,14 @@ Die anonymen inneren Klassen werden bspw. im Zusammenhang mit den Methodenköpfe
         `print("yeeey");`  
     `}`  
 `};`  
-`x.SchuleAus();`
+`x.SchuleAus();`  
+## Module [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Die Module kapseln den Code so, dass man ihn in anderen Projekten verwenden kann.  
+`namespace`(C#) o. `package`(Java) o. "Datei"(Python)  
+
+Diese Module können unterschiedlich eingebunden werden.  
+`#include`(C/C++) o. `import`(Java) o. `using`(C#)
+
+Wenn man ein bestimmtes Modul einbindet, kann man direkt von diesem erben. Man kann auch Funktionen und Methoden verwenden, als wären sie im eigenen Projekt.  
+
+String sind bspw- nicht standardmäßig in jeder Programmiersprache integriert, weswegen hier Module eingebunden werden müssen.  
