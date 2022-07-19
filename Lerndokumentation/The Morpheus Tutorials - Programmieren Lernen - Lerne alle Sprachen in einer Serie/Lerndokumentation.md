@@ -60,7 +60,8 @@
 59. Statische innere Klassen
 60. Innere Klassen
 61. Anonyme innere Klassen 
-62. Module
+62. Module 
+63. Dynamic vs Static Scoping
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1215,3 +1216,19 @@ Diese Module können unterschiedlich eingebunden werden.
 Wenn man ein bestimmtes Modul einbindet, kann man direkt von diesem erben. Man kann auch Funktionen und Methoden verwenden, als wären sie im eigenen Projekt.  
 
 String sind bspw- nicht standardmäßig in jeder Programmiersprache integriert, weswegen hier Module eingebunden werden müssen.  
+## Dynamic vs Static Scoping [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Beim Static Scoping werden immer erst die Variablen und Inhalte verwendet, die innerhalb des selben Scopes(Codeblock) liegen.  
+`int a = 42;`  
+`int function foo(){`  
+    `int res = a + 42;`  
+`}`  
+`int function bar(){`  
+    `int a = 1337;`  
+    `return foo();`  
+`}`  
+`foo();`  
+`bar();`  
+
+Hier wird in der `foo();`-Funktion die Variable `a` aus dem kompletten Datei-Scope verwendet, da dies die naheliegenste Initialisierung und Deklaration von `a` ist. Also `a = 42`.  
+
+Beim Dynamic-Scoping würde hier die Variable tatsächlich überschrieben werden. Es würde also in der Funktion `bar();` die Variable `a` mit dem Wert `a = 1337` verwendet werden.  
