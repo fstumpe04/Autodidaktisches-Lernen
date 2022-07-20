@@ -62,6 +62,7 @@
 61. Anonyme innere Klassen 
 62. Module 
 63. Dynamic vs Static Scoping
+64. Mixins
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1232,3 +1233,21 @@ Beim Static Scoping werden immer erst die Variablen und Inhalte verwendet, die i
 Hier wird in der `foo();`-Funktion die Variable `a` aus dem kompletten Datei-Scope verwendet, da dies die naheliegenste Initialisierung und Deklaration von `a` ist. Also `a = 42`.  
 
 Beim Dynamic-Scoping würde hier die Variable tatsächlich überschrieben werden. Es würde also in der Funktion `bar();` die Variable `a` mit dem Wert `a = 1337` verwendet werden.  
+## Mixins [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Bei Mixins kann eine Klasse ohn Type Casting mit zwei oder mehr Klassentypen deklarriert werden, sodass man bspw. in einer Funktion die verscheiden Klassentypen zurückggeben kann.  
+`class Maybe(a) = Just(a) | Nothing;`  
+`class Just {`  
+    `float a;`  
+`}`  
+`class Nothing {`  
+`}`  
+`Maybe function div(float a, float b){`  
+    `if (b == 0) {`  
+        `return new Nothing();`  
+    `}`  
+    `else {`  
+        `return new Just (a/b);`  
+    `}`  
+`}`  
+
+Hier wird das neue Objekt `Nothing();` zurück gegeben, falls diue Variable `b` einen Wert von 0 hat und damit nicht durch 0 geteilt wird. Ist die Variable `b` nicht 0 so ist der Rückgabewert ein neues Objket der Klasse `Just();`.  
