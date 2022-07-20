@@ -5,4 +5,5 @@ Der Schwerpunkt liegt hier vorallem bei den Themen Softwareentwicklung/Softwarea
 
 Wichtig ist mir hierbei immer, dass ich das gelernte wissen auch direkt anwende, sofern dies möglich ist.  
 
-Daher bietet sich für mich ein GitHub-Repository sehr gut, da ich hier direkt Test-Projekte und -Anwendungen bauen und durchführen kann.  
+Daher bietet sich für mich ein GitHub-Repository sehr gut an, da ich hier direkt Test-Projekte und -Anwendungen bauen und durchführen kann.  
+
