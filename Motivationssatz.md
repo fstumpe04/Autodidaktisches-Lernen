@@ -1,0 +1,1 @@
+# Ich möchte Softwareentwicklung lernen, da ich mich sehr gerne mit Computern beschäftige und ich es sehr spannend finde wie die Software die ich und andere verwenden funktioniert.

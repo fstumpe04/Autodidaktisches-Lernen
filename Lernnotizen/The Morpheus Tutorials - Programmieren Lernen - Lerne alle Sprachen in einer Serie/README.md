@@ -1,0 +1,1 @@
+Hier befinden sich alle Lernnotizen von der Videoreihe "The Morpheus Tutorials - Programmieren Lernen - Lerne alle Sprachen in einer Serie".  

@@ -80,7 +80,7 @@ Quelle: https://entwickler.de/programmierung/10-technische-skills-die-jeder-soft
   - Intro to Visual Studio 2019 - What's New, What's Better, and Why You Should Upgrade https://www.youtube.com/watch?v=9V2En3Cnq6c
 - Visual Studio Code
   - Visual Studio Code Full Course - VS Code for Beginners https://www.youtube.com/watch?v=UTQp6mvhb0Y
-  - Einfùhrung in Visual Studio Code https://www.udemy.com/course-dashboard-redirect/?course_id=4137272
+  - Einf¸hrung in Visual Studio Code https://www.udemy.com/course-dashboard-redirect/?course_id=4137272
 
 7. Frameworks
 

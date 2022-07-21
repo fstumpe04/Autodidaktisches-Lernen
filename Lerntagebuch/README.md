@@ -1,7 +1,3 @@
-Hier werden alle Lerntagebücher gespeichert, 
-die sich aus dem zusammentragen der Lernnotizen ergeben.  
+Hier werden alle Lerntagebücher gespeichert, die sich aus dem Zusammentragen der Lernnotizen ergeben haben.  
 
-Diese Lerndokumentationen werden täglich geführt.  
-
-Führs erste werden diese in Markdown-Dateien geschrieben, 
-da diese auf GitHub lesbarer sind.
+Diese Lerndokumentationen werden täglich geführt und in Markdown-Dateien geschrieben, da diese auf GitHub lesbarer sind.
