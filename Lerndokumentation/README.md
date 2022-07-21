@@ -1,7 +1,7 @@
 Hier werden alle Lerndokumentationen gespeichert, 
-die sich aus dem zusammentragen der LerntagebÃ¼cher ergeben.  
+die sich aus dem zusammentragen der Lerntagebücher ergeben.  
 
-Diese Lerndokumentationen werden pro Lernvideo-Playlist bzw. pro Lehrbuch gefÃ¼hrt um von allem eine Zusammenfassung zu haben.  
+Diese Lerndokumentationen werden pro Lernvideo-Playlist bzw. pro Lehrbuch geführt um von allem eine Zusammenfassung zu haben.  
 
-FÃ¼hrs erste werden diese in Markdown-Dateien geschrieben, 
+Führs erste werden diese in Markdown-Dateien geschrieben, 
 da diese auf GitHub lesbarer sind.  

@@ -6,9 +6,9 @@ MIN | TODO
 25 | Video gucken/Text lesen
 5 | Kleine Pause 
 25 | Anwendung (selbst probieren und testen) 
-5 | Kleine Pause (Optional, nur falls m?glich!)
-25 | Einbauen in Pet Project (Optional, nur falls m?glich!) 
-30 | Gro?e Pause
+5 | Kleine Pause (Optional, nur falls möglich!)
+25 | Einbauen in Pet Project (Optional, nur falls möglich!) 
+30 | Große Pause
 30 | Lerntagebuch/Lerndokumentation schreiben
 # An freien Tagen (4 Slots = 6-8 Stunden + 60 min Lerntagebuch/Lerndokumentation)
 MIN | TODO
@@ -17,28 +17,28 @@ MIN | TODO
 25 | Video gucken/Text lesen
 5 | Kleine Pause 
 25 | Anwendung (selbst probieren und testen) 
-5 | Kleine Pause (Optional, nur falls m?glich!)
-25 | Einbauen in Pet Project (Optional, nur falls m?glich!) 
-30 | Gro?e Pause
+5 | Kleine Pause (Optional, nur falls möglich!)
+25 | Einbauen in Pet Project (Optional, nur falls möglich!) 
+30 | Große Pause
 5 | Einrichten  
 25 | Video gucken/Text lesen
 5 | Kleine Pause 
 25 | Anwendung (selbst probieren und testen) 
-5 | Kleine Pause (Optional, nur falls m?glich!)
-25 | Einbauen in Pet Project (Optional, nur falls m?glich!) 
-30 | Gro?e Pause
+5 | Kleine Pause (Optional, nur falls möglich!)
+25 | Einbauen in Pet Project (Optional, nur falls möglich!) 
+30 | Große Pause
 5 | Einrichten  
 25 | Video gucken/Text lesen
 5 | Kleine Pause 
 25 | Anwendung (selbst probieren und testen) 
-5 | Kleine Pause (Optional, nur falls m?glich!)
-25 | Einbauen in Pet Project (Optional, nur falls m?glich!) 
-30 | Gro?e Pause
+5 | Kleine Pause (Optional, nur falls möglich!)
+25 | Einbauen in Pet Project (Optional, nur falls möglich!) 
+30 | Große Pause
 5 | Einrichten  
 25 | Video gucken/Text lesen
 5 | Kleine Pause 
 25 | Anwendung (selbst probieren und testen) 
-5 | Kleine Pause (Optional, nur falls m?glich!)
-25 | Einbauen in Pet Project (Optional, nur falls m?glich!) 
-30 | Gro?e Pause
+5 | Kleine Pause (Optional, nur falls möglich!)
+25 | Einbauen in Pet Project (Optional, nur falls möglich!) 
+30 | Große Pause
 60 | Lerntagebuch/Lerndokumentation schreiben
