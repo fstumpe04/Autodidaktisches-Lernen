@@ -63,6 +63,7 @@
 62. Module 
 63. Dynamic vs Static Scoping
 64. Mixins
+65. Generics
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1251,3 +1252,23 @@ Bei Mixins kann eine Klasse ohn Type Casting mit zwei oder mehr Klassentypen dek
 `}`  
 
 Hier wird das neue Objekt `Nothing();` zurück gegeben, falls diue Variable `b` einen Wert von 0 hat und damit nicht durch 0 geteilt wird. Ist die Variable `b` nicht 0 so ist der Rückgabewert ein neues Objket der Klasse `Just();`.  
+## Generics [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Generische Klassen haben Typparameter `<T>`, die immer einen anderen Typ haben k?nnen, bspw. den Typ `int`.  
+
+Man kann also je nach dem welchen Typparameter man ?bergibt, unterschiedlich mit dem Objekt innerhalb der Klasse arbeiten, was bspw. einzelne Sortierverfahren aus?erhalb der Klasse erspart.  
+`class Container<T>{`  
+`}`  
+`Container<int> tonne = Container<int>();`  
+
+Bei Java musste man bei der Initalisierung iener generischen Klasse die Wrapperklassen verwenden um das Typargument zu ?bergeben, da die Standarddatentypen hier nicht funktionieren, hier muss also bspw. die Wrapperklasse `Integer` verwendet werden.  
+
+Man k?nnte hiermit also auch eigene generische Datenstrukturen erstellen, die bspw. innerhalb der Klasse die Struktur sortiert statt sie ?ber einen extra Methodenaufruf sortieren zu m?ssen.  
+
+`class Container<T>{`  
+    `T[] meinArray;`  
+    `private function void sortierung(){`  
+        `if (T[0].equals.(T[1])){`  
+            `///...`  
+        `}`  
+    `}`  
+`}`  
