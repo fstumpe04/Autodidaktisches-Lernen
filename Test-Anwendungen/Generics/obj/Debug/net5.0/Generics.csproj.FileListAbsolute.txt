@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\bin\Debug\net5.0\Generics.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\bin\Debug\net5.0\Generics.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\bin\Debug\net5.0\Generics.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\bin\Debug\net5.0\Generics.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\bin\Debug\net5.0\Generics.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\bin\Debug\net5.0\Generics.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\refint\Generics.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\Generics.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Generics\obj\Debug\net5.0\ref\Generics.dll
