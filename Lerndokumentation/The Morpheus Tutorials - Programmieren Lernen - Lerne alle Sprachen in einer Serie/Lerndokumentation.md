@@ -63,7 +63,8 @@
 62. Module 
 63. Dynamic vs Static Scoping
 64. Mixins
-65. Generics
+65. Generics 
+66. Generische Funktionen
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
@@ -1272,3 +1273,12 @@ Man k?nnte hiermit also auch eigene generische Datenstrukturen erstellen, die bs
         `}`  
     `}`  
 `}`  
+## Generische Funktionen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Generische Funktionen nutzt man so wie normal Methoden, man hier aber den Typ `<T>` sowohl als Parameter als auch als R?ckgabewert verwenden.  
+`function T[] sort<T> (T[] elements){`  
+    `//...`  
+`}`  
+`String[] meinArray = {"verstecke champion", ";", "seit 1958"};`  
+`meinArray = sort(meinArray);`  
+
+Hier muss kein Variablentyp ?bergeben werden, da dieser unter der Haube mit ?bergeben wird.  
