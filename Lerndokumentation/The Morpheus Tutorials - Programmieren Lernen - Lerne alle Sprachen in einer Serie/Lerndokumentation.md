@@ -1,5 +1,5 @@
 # Lerndokumentation [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-1. Syntax (Zusammenfügungsregeln von Zeichen)
+1. Syntax (Zusammenf?gungsregeln von Zeichen)
 2. Semantik (Interpretationsregeln)
 3. Variablen
 4. Codefluss
@@ -9,8 +9,8 @@
 8. Short - Ganzzahlen
 9. Integer - Ganzzahlen
 10. Long, Long Long oder BigInteger - Ganzzahlen
-11. Float - Fließkommazahlen
-12. Double - Fließkommazahlen
+11. Float - Flie?kommazahlen
+12. Double - Flie?kommazahlen
 13. Buchstaben - Character
 14. Kommentare
 15. Arrays
@@ -49,9 +49,9 @@
 48. TypeCasts 
 49. instanceof
 50. typeof
-51. Überschreiben von Methoden
+51. ?berschreiben von Methoden
 52. Enums
-53. Operatoren überschreiben 
+53. Operatoren ?berschreiben 
 54. Super
 55. Interfaces
 56. Mehrfachvererbung und das Diamantenproblem
@@ -65,24 +65,28 @@
 64. Mixins
 65. Generics 
 66. Generische Funktionen
+67. Typschranken
+68. Prozesse und Threads
+69. Threads erstellen
+70. Nebenläufigkeit von Threads
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-### Syntax (Zusammenfügungsregeln von Zeichen)
-Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man später neu an einer weiteren Programmiersprache lernen muss.
+### Syntax (Zusammenf?gungsregeln von Zeichen)
+Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
 ### Semantik (Interpretationsregeln)
-Die Semantik ist die Bedeutung die der Quelltext hat, bzw. ist es das was der Quelltext in wirklichkeit ausführt.  
+Die Semantik ist die Bedeutung die der Quelltext hat, bzw. ist es das was der Quelltext in wirklichkeit ausf?hrt.  
 `int a = 5;`  
 und  
 `a = 5`   
 haben die selbe Semantik.
 ## Variablen und der Codefluss [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Variablen
-Variablen werden in einer Programmiersprache dazu verwendet, sie im Arbeitsspeicher (RAM = Random-Access Memory) zu speichern und im weiteren Verlauf der Durchführung des Programms zu verwenden.  
+Variablen werden in einer Programmiersprache dazu verwendet, sie im Arbeitsspeicher (RAM = Random-Access Memory) zu speichern und im weiteren Verlauf der Durchf?hrung des Programms zu verwenden.  
 `int a = 5;`
-`print (a); // Würde 5 ausgeben`
+`print (a); // W?rde 5 ausgeben`
 `a = 10;`
-`print (a); // Würde 10 ausgeben`
+`print (a); // W?rde 10 ausgeben`
 
-Heisst je mehr Variablen man verwendet je mehr Arbeitspeicher wird genutzt und desto langsamer wird das Programm, da bspw. der Arbeitsspeicher so überfüllt ist, das auf die Speicherfreigabe von anderen Variablen gewartet werden muss. 
+Heisst je mehr Variablen man verwendet je mehr Arbeitspeicher wird genutzt und desto langsamer wird das Programm, da bspw. der Arbeitsspeicher so ?berf?llt ist, das auf die Speicherfreigabe von anderen Variablen gewartet werden muss. 
 
 Initialisiert und deklariert wird eine Variable z. B. so:  
 `int a = 5;`  
@@ -92,79 +96,79 @@ Initialisiert und deklariert wird eine Variable z. B. so:
 `5` ist hier der zugewiesene Variablenwert.  
 `;` definiert das Zeilenende.  
 
-Hierbei kann auch nur die Initialisierung: `int a;` und nur die Deklaration `a = 5;` druchgeführt werden.  
+Hierbei kann auch nur die Initialisierung: `int a;` und nur die Deklaration `a = 5;` druchgef?hrt werden.  
 
-Hier dürfen auch keine Variablennamen mit Leerzeichen getrennt werden da sonst der Kompiler diese nicht lesen kann.
+Hier d?rfen auch keine Variablennamen mit Leerzeichen getrennt werden da sonst der Kompiler diese nicht lesen kann.
 
-Für die Wertänderungen und die Speicherverwaltung generell, gibt es auch Referenzen die beliebig gesetzt werden können.
+F?r die Wert?nderungen und die Speicherverwaltung generell, gibt es auch Referenzen die beliebig gesetzt werden k?nnen.
 
-An sich haben Variablen unterschiedlich große Speicherkapazitäten.
+An sich haben Variablen unterschiedlich gro?e Speicherkapazit?ten.
 
 ### Codefluss
-Der Codefluss an sich verläuft immer von oben nach unten und wird zeilenweise ausgeführt. Bei den einen Programmiersprachen wird das Zeilenende durch ein Zeichen deklariert (bspw. ein `;`), bei anderen wird das Zeilenende durch Zeilenumbrüche und Absätze dem Kompilier geläufig gemacht.
+Der Codefluss an sich verl?uft immer von oben nach unten und wird zeilenweise ausgef?hrt. Bei den einen Programmiersprachen wird das Zeilenende durch ein Zeichen deklariert (bspw. ein `;`), bei anderen wird das Zeilenende durch Zeilenumbr?che und Abs?tze dem Kompilier gel?ufig gemacht.
 ## Integer - Ganzzahlen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Schwachtypisierte Programmiersprachen
-Müssen keinen fest definierten Datentyp definiert bekommen.  
-Es reicht entwerder nichts, var oder ein $-Zeichen davor zu schreiben, damit der Kompiler selbst entscheidet welchen Datentyp der zugehörige Varaiblenwert hat.
+M?ssen keinen fest definierten Datentyp definiert bekommen.  
+Es reicht entwerder nichts, var oder ein $-Zeichen davor zu schreiben, damit der Kompiler selbst entscheidet welchen Datentyp der zugeh?rige Varaiblenwert hat.
 ### Starktypisierte Programmiersprachen
-Benötigen zwingent einen von der Programmiersprache und selbst festgelegten Datentypen wie bspw. `int`.
+Ben?tigen zwingent einen von der Programmiersprache und selbst festgelegten Datentypen wie bspw. `int`.
 ### Byte - Ganzzahlen
-Existieren in Programmiersprachen bspw. als: `int8_t` oder `byte`, sind 8 Bit also 1 Byte groß und es gibt sie in einer signed und unsigned Variante.  
-Falls man mit dem übergeben Wert einen Punkt außerhalb der folgenden Range fallen würde, würde man wieder von Vorne bzw. von Hinten anfangen zu zählen. Das nennt sich auch Overflow  
+Existieren in Programmiersprachen bspw. als: `int8_t` oder `byte`, sind 8 Bit also 1 Byte gro? und es gibt sie in einer signed und unsigned Variante.  
+Falls man mit dem ?bergeben Wert einen Punkt au?erhalb der folgenden Range fallen w?rde, w?rde man wieder von Vorne bzw. von Hinten anfangen zu z?hlen. Das nennt sich auch Overflow  
 C# Beispiel:  
 // sbyte (signed Variante)  
-Die niedrigste sbyte größe lautet: -128  
-Die höchste sbyte größe lautet: 127  
+Die niedrigste sbyte gr??e lautet: -128  
+Die h?chste sbyte gr??e lautet: 127  
 // byte (unsigned Variante)  
-Die niedrigste byte größe lautet: 0  
-Die höchste byte größe lautet: 255
+Die niedrigste byte gr??e lautet: 0  
+Die h?chste byte gr??e lautet: 255
 ### Short - Ganzzahlen
-Sind 16 Bit (2^16) groß und es gibt sie in einer signed und unsigned Variante.  
+Sind 16 Bit (2^16) gro? und es gibt sie in einer signed und unsigned Variante.  
 C#-Beispiel:  
 // short (signed-Variante)
-Die niedrigste short größe lautet: -32768
-Die höchste byte größe lautet: 32767
+Die niedrigste short gr??e lautet: -32768
+Die h?chste byte gr??e lautet: 32767
 // ushort (unsigned-Variante)
-Die niedrigste ushort größe lautet: 0
-Die höchste ubyte größe lautet: 65535
+Die niedrigste ushort gr??e lautet: 0
+Die h?chste ubyte gr??e lautet: 65535
 ### Integer - Ganzzahlen
-Sind 32 Bit (2^32) groß und es gibt sie in einer signed und unsigned Variante. 
+Sind 32 Bit (2^32) gro? und es gibt sie in einer signed und unsigned Variante. 
 C#-Beispiel:  
 // int (signed-Variante)
-Die niedrigste int größe lautet: -2147483648
-Die höchste int größe lautet: 2147483647
+Die niedrigste int gr??e lautet: -2147483648
+Die h?chste int gr??e lautet: 2147483647
 // uint (unsigned-Variante)
-Die niedrigste uint größe lautet: 0
-Die höchste uint größe lautet: 4294967295
+Die niedrigste uint gr??e lautet: 0
+Die h?chste uint gr??e lautet: 4294967295
 ### Long, Long Long oder BigInteger - Ganzzahlen
-Sind je nach Betriebssystem 32/64 Bit (2^32/2^64) groß und es gibt sie in einer signed und unsigned Variante.  
+Sind je nach Betriebssystem 32/64 Bit (2^32/2^64) gro? und es gibt sie in einer signed und unsigned Variante.  
 C#-Beispiel:  
 // long (signed-Variante)
-Die niedrigste long größe lautet: -9223372036854775808
-Die höchste long größe lautet: 9223372036854775807
+Die niedrigste long gr??e lautet: -9223372036854775808
+Die h?chste long gr??e lautet: 9223372036854775807
 // long (unsigned-Variante)
-Die niedrigste ulong größe lautet: 0
-Die höchste ulong größe lautet: 18446744073709551615
+Die niedrigste ulong gr??e lautet: 0
+Die h?chste ulong gr??e lautet: 18446744073709551615
 // nint (signed-Variante)
-Die niedrigste nint größe lautet: -9223372036854775808
-Die höchste nint größe lautet: 9223372036854775807
+Die niedrigste nint gr??e lautet: -9223372036854775808
+Die h?chste nint gr??e lautet: 9223372036854775807
 // nuint (unsigned-Variante)
-Die niedrigste nuint größe lautet: 0
-Die höchste nuint größe lautet: 18446744073709551615
-## Fließkommazahlen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-### Float - Fließkommazahlen
+Die niedrigste nuint gr??e lautet: 0
+Die h?chste nuint gr??e lautet: 18446744073709551615
+## Flie?kommazahlen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+### Float - Flie?kommazahlen
 Werden immer mit einem `.` getrennt und durch Exponenten dargestellt.  
 Beispiel: 2147*1-³ = 2.147 u. 11100111001*2-5 = 111001.11001  
-Im Rechner wird IEEE754 zum umrechnen von Fließkommazahlen genutzt.  
-Generel sind Fließkommazahlen eeher ungenau, da wenn man bspw. folgende Variable deklariert
+Im Rechner wird IEEE754 zum umrechnen von Flie?kommazahlen genutzt.  
+Generel sind Flie?kommazahlen eeher ungenau, da wenn man bspw. folgende Variable deklariert
 `double a = 0.7;`  
 der Varialbenwert 0.69999999999999995559107 usw. rauskommen kann.  
 
 C#-Beispiel:  
 // float.MinValue
-Die niedrigste Floatgröße lautet: -3.4028235E+38
+Die niedrigste Floatgr??e lautet: -3.4028235E+38
 // float.MaxValue
-Die höchste Floatgröße lautet: 3.4028235E+38
+Die h?chste Floatgr??e lautet: 3.4028235E+38
 // float.Epsilon
 Der Epsilon-Wert von float lautet: 1E-45
 // float.NaN
@@ -173,12 +177,12 @@ Der NaN-Wert von float lautet: NaN
 Der NegativeInfinity-Wert von float lautet: -8
 // float.PositiveInfinity
 Der PositiveInfinity-Wert von float lautet: 8
-### Double - Fließkommazahlen
+### Double - Flie?kommazahlen
 C#-Beispiel:  
 // double.MinValue
-Die niedrigste Doublegröße lautet: -1.7976931348623157E+308
+Die niedrigste Doublegr??e lautet: -1.7976931348623157E+308
 // double.MaxValue
-Die höchste Doublegröße lautet: 1.7976931348623157E+308
+Die h?chste Doublegr??e lautet: 1.7976931348623157E+308
 // double.Epsilon
 Der Epsilon-Wert von double lautet: 5E-324
 // double.NaN (Not a Number da der Computer nicht unendlich abbilden kann)
@@ -189,40 +193,40 @@ Der NegativeInfinity-Wert von double lautet: -8
 Der PositiveInfinity-Wert von double lautet: 8
 
 ## Buchstaben - Character [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Der Character wir wie im folgenden ähnlich bie beim Integer deklariert und initalisiert.  
+Der Character wir wie im folgenden ?hnlich bie beim Integer deklariert und initalisiert.  
 `char a = 'n';`  
 Normalerweise wird der Wert in einfachen hochkomma Zeichen (') hinein geschrieben, es gibt aber auch Programmiersprachen wo diese in den doppelten hochkomma Zeichen (") geschrieben werden.  
 
 An sich ist ein Character eine Ganzzahl wie ein Byte, also wird er auch mit der selben Range von 0 - 255 gespeichert.  
 
-Buchstaben können in Zahlen umgewandelt werden und umgekehrt genau so.
+Buchstaben k?nnen in Zahlen umgewandelt werden und umgekehrt genau so.
 
 Der ASCII-Zeichensatz bildet hier den Standard mit seinen 7 Bit also 127 Zecihen insgesamt.
 
-Hier gibt es auch noch weiter Zeichensätze wie bspw. Unicode, damit auch Smiles oder ähnliches abgebildet werden kann.
+Hier gibt es auch noch weiter Zeichens?tze wie bspw. Unicode, damit auch Smiles oder ?hnliches abgebildet werden kann.
 
 ## Kommentare [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Kommentare werden dazu verwendet den Überlick in seinem geschriebenen Quelltext zu behalten und sich auch noch nach Jahren wieder in den Quelltext einlesen zu können.  
+Kommentare werden dazu verwendet den ?berlick in seinem geschriebenen Quelltext zu behalten und sich auch noch nach Jahren wieder in den Quelltext einlesen zu k?nnen.  
 
-Je nach Programmiersprache werden diese mit einem Route-Zeichen(#), doppelten Schrägstrichen(//) oder einem kleiner als Zeichen gefolgt von zwei Minus-Zeichen (<--) gekennzeichnet.
+Je nach Programmiersprache werden diese mit einem Route-Zeichen(#), doppelten Schr?gstrichen(//) oder einem kleiner als Zeichen gefolgt von zwei Minus-Zeichen (<--) gekennzeichnet.
 
 Kommentare werden immer vom Kompiler ignoriert!  
 
-Es gibt Schlüsselwörter in den Kommentaren wie z.B. `//TODO:` um Aufgaben zu definieren oder auch Zusammenfassungen um aus den Kommentaren eine Dokumentation erstellen zu können.
+Es gibt Schl?sselw?rter in den Kommentaren wie z.B. `//TODO:` um Aufgaben zu definieren oder auch Zusammenfassungen um aus den Kommentaren eine Dokumentation erstellen zu k?nnen.
 
 ## Arrays [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Arrays sind dazu da mehrere Variablen eines Datentyps zusammen zu fassen und neben einander im Speicher zu lagern.  
 
-Statt also mehrere Variablen einzeln anlegen zu müssen,  
+Statt also mehrere Variablen einzeln anlegen zu m?ssen,  
 `int x1;`  
 `int x2;`  
 `int x3;`  
 kann man also alle in eine Datenstruktur packen.  
 `int[] a = new int[3];`  
 
-Um die Variablen in dem Array nun verwenden zu können, nutzt man einen Index der immer bei 0 beginnt. Das heisst wenn man wie hier auf den Index 3 zugreifen würde, ergebe das einen Fehler da nur die Indexe 0, 1 und 2 existieren und hierfür der Speicherplatz belegt wurde.  
+Um die Variablen in dem Array nun verwenden zu k?nnen, nutzt man einen Index der immer bei 0 beginnt. Das heisst wenn man wie hier auf den Index 3 zugreifen w?rde, ergebe das einen Fehler da nur die Indexe 0, 1 und 2 existieren und hierf?r der Speicherplatz belegt wurde.  
 
-Die Wert werden also wie im folgenden zugewiesen und auch hier kann die Initalisierung und Deklaration in der selben Zeile durchgeführt werden.  
+Die Wert werden also wie im folgenden zugewiesen und auch hier kann die Initalisierung und Deklaration in der selben Zeile durchgef?hrt werden.  
  
 `int[] a = new int[3];`  
 `a[0] = 1;`  
@@ -265,15 +269,15 @@ Im Gegensatz zu den Arrays muss bei den Listen der Speicher der belegt werden so
 
 `a = [42, 1337, 128, 256]`
 
-Um nun einer Liste einen Wert hinzuzufügen bentuzt man die Add-Funktion.  
+Um nun einer Liste einen Wert hinzuzuf?gen bentuzt man die Add-Funktion.  
 
-Mit der Len-Funktion gibt man die Anzahl an Elementen die sich in der Liste befinden zurück.
+Mit der Len-Funktion gibt man die Anzahl an Elementen die sich in der Liste befinden zur?ck.
 
-Funktionen wie Push() und Pop() können der Liste ebenfalls eine Element hinzufügen bzw. ein Element aus der Liste entfernen.  
+Funktionen wie Push() und Pop() k?nnen der Liste ebenfalls eine Element hinzuf?gen bzw. ein Element aus der Liste entfernen.  
 
-Grundsätzlich sind Listen langsamer als Arrays, da sie eine längere Zugriffzeit benötigen um auf ein Element zugreifen zu können.
+Grunds?tzlich sind Listen langsamer als Arrays, da sie eine l?ngere Zugriffzeit ben?tigen um auf ein Element zugreifen zu k?nnen.
 
-Bei einer Liste bekommt ein Element immer die Speicheraddresse des nächsten Element zugewiesen, diese Datenstruktur nennt man auuch Linked List.
+Bei einer Liste bekommt ein Element immer die Speicheraddresse des n?chsten Element zugewiesen, diese Datenstruktur nennt man auuch Linked List.
 
 42-->1337-->128-->256
 
@@ -286,30 +290,30 @@ Es gibt auch eine Double Linked List, bei der auch die Speicheraddresse des vorh
 ## Mehrdimensionale Listen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Mehrdimensionale Listen funktionieren genau so wie die mehrdimensionalen Arrays, heisst es werden Listen in Listen gespeichert.
 ## Strings [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Strings sind Zeichenketten, also nicht anderes als variabel Große Char-Arrays bzw. Listen aus Chars.  
+Strings sind Zeichenketten, also nicht anderes als variabel Gro?e Char-Arrays bzw. Listen aus Chars.  
 
 `string a = "irgendwas";`
 
-Falls hier von der Programmiersprache ein Array genutzt wird, wird unter der Haube von der Programmiersprache selbst immer ein neues Array angelegt falls sich die Größe des Arrays ändert.  
+Falls hier von der Programmiersprache ein Array genutzt wird, wird unter der Haube von der Programmiersprache selbst immer ein neues Array angelegt falls sich die Gr??e des Arrays ?ndert.  
 
-Die einzelnen Chars in einem String können also auch mit einem Index behandelt werden.  
+Die einzelnen Chars in einem String k?nnen also auch mit einem Index behandelt werden.  
 
-Der Backslash (umgekehrten Schrägstrich) hat in einem String eine besondere Bedeutung und zwar dient dieser als Markierungszeichen um ein Special-Char nutzen zu können.  
+Der Backslash (umgekehrten Schr?gstrich) hat in einem String eine besondere Bedeutung und zwar dient dieser als Markierungszeichen um ein Special-Char nutzen zu k?nnen.  
 
-Diese Special-Chars sind bspw. `"\n"` um einen Zeilenumbruch druchzufügren oder `"\t"` um einen Tabulator einzufügen.
+Diese Special-Chars sind bspw. `"\n"` um einen Zeilenumbruch druchzuf?gren oder `"\t"` um einen Tabulator einzuf?gen.
 
-Falls man nun einen Backslash in seinen String schreiben möchte, schreibt man einfach einen weiteren Backslash davor damit derKompiler diesen wieder als Backslash identifizieren kann.
+Falls man nun einen Backslash in seinen String schreiben m?chte, schreibt man einfach einen weiteren Backslash davor damit derKompiler diesen wieder als Backslash identifizieren kann.
 
-Um einen String an sich zu identifizeren schreib man doppelte Anführungszeichen (") vor und hinter die Zeichenkette, falls auch hier das doppelte Anführungszeichen innerhalb der zeichenkette genutzt werden soll, schreibt man auch ein Backslash davor.
+Um einen String an sich zu identifizeren schreib man doppelte Anf?hrungszeichen (") vor und hinter die Zeichenkette, falls auch hier das doppelte Anf?hrungszeichen innerhalb der zeichenkette genutzt werden soll, schreibt man auch ein Backslash davor.
 ## Unicode-Zeichensatz [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Mit dem Unicode Zeichensatz kann man durch Special-Chars nun bspw. Smiles in seinen Strings einfügen.  
+Mit dem Unicode Zeichensatz kann man durch Special-Chars nun bspw. Smiles in seinen Strings einf?gen.  
 
-Dies tut man in dem man \u gefolgt von der gewünschten Hexadezimalzahl in den String schreibt.  
+Dies tut man in dem man \u gefolgt von der gew?nschten Hexadezimalzahl in den String schreibt.  
 
-Diese Hexadezimalzahl steht bspw. für ein Herz:  
+Diese Hexadezimalzahl steht bspw. f?r ein Herz:  
 `"\u2665"`
 
-Eine Tabelle mit sämtlichen Unicode-Zeichen inkl. Hexadezimalenzahlen findet man hier:  
+Eine Tabelle mit s?mtlichen Unicode-Zeichen inkl. Hexadezimalenzahlen findet man hier:  
 https://unicode-table.com/de/
 ## Arithmetische Operatoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Es gibt 5 arithmetische Operatoren. Plus, Minus, Mal, Geteilt und Modulo.  
@@ -319,28 +323,28 @@ Es gibt 5 arithmetische Operatoren. Plus, Minus, Mal, Geteilt und Modulo.
 `a = x/y;`  
 `a = x%y;`  
 
-Auch hier kann ein Overflow im Speicher entstehen wenn man nach der Berechnung die Range des Datentypen über- bzw. unterschreitet.
+Auch hier kann ein Overflow im Speicher entstehen wenn man nach der Berechnung die Range des Datentypen ?ber- bzw. unterschreitet.
 
-Bei dem Geteilt-Operator muss beachtet werden, das nich durch 0 geteilt wird da der zurückgegebene Wert sonst NaN ist und für Fehler im Programm sorgen kann.
+Bei dem Geteilt-Operator muss beachtet werden, das nich durch 0 geteilt wird da der zur?ckgegebene Wert sonst NaN ist und f?r Fehler im Programm sorgen kann.
 
-Der Modulo-Operator wird dazu verwendet um nur den Rest einer Division in einer Variablen zu speichern. Dies wird häufig bei Grafikprogrammierung genutzt.
+Der Modulo-Operator wird dazu verwendet um nur den Rest einer Division in einer Variablen zu speichern. Dies wird h?ufig bei Grafikprogrammierung genutzt.
 
 `int x = 5;`  
 `int y = 3;`  
 `int z = x % y;`  
 5/3 = 1 R = 2 also ist Z = 2
 
-Es gibt auch die Möglichkeit Variablen mit einem anderen Wert zu verändern, was mit allen arithmetischen Operatoren funktioniert.  
+Es gibt auch die M?glichkeit Variablen mit einem anderen Wert zu ver?ndern, was mit allen arithmetischen Operatoren funktioniert.  
 `y += 1;` oder `y = y + 1;`  
 `y -= 1;` oder `y = y - 1;`  
 `y *= 1;` oder `y = y * 1;`  
 `y /= 1;` oder `y = y / 1;`  
 `y %= 1;` oder `y = y % 1;`  
 
-Um einen Wert um eine Stufe zu vergrößern bzw. zu verkleinern (Inkrementierung/Dekrementierung), kann man auch eine vereinfachte Schreibweise verwenden.  
+Um einen Wert um eine Stufe zu vergr??ern bzw. zu verkleinern (Inkrementierung/Dekrementierung), kann man auch eine vereinfachte Schreibweise verwenden.  
 y++; u. y--;  
 
-Hier gilt zu beachten, dass wenn man den inkrementierten Wert übergeben will die Varaible hinter die Operatoren schreiben muss.  
+Hier gilt zu beachten, dass wenn man den inkrementierten Wert ?bergeben will die Varaible hinter die Operatoren schreiben muss.  
 
 `int x= 5;`  
 `int y= 3;`  
@@ -351,18 +355,18 @@ Hier gilt zu beachten, dass wenn man den inkrementierten Wert übergeben will die
 Expontenten werden wie folgt gekennzeichnet:  
 `int z = x**y;` oder `int z = x^y;` oder `int z = Math.Pow(x, y);`
 ## IF-Verzweigungen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Wird dazu benötigt seinen Code zu strukturieren und um mit Bedingungen arbeiten zu können. 
+Wird dazu ben?tigt seinen Code zu strukturieren und um mit Bedingungen arbeiten zu k?nnen. 
 
-Um einen if-Block zu beginnen, schreibt man das if-Schlüsselwort, gefolgt von der Bedingung, gefolgt von den gescheiften Klammern in dem der Code steht der ausgeführt werden soll, wenn die Bedingung erfüllt worden ist.  
+Um einen if-Block zu beginnen, schreibt man das if-Schl?sselwort, gefolgt von der Bedingung, gefolgt von den gescheiften Klammern in dem der Code steht der ausgef?hrt werden soll, wenn die Bedingung erf?llt worden ist.  
 `if (BEDINGUNG)`  
 `{`  
   `// irgendwelcher Code`  
 `}`  
 
-bei Bedingungen werden Vergleichüberprüfung vor genommen die mit einem doppelten Gleichheitszeichen geschrieben werden.  
+bei Bedingungen werden Vergleich?berpr?fung vor genommen die mit einem doppelten Gleichheitszeichen geschrieben werden.  
 `if (x == 42)`  
 
-Das else-Schlüsselwort sorgt dafür, dass immer etwas ausgeführt wird falls keine der vorherigen if-Bedingungen erfüllt worden sind.  
+Das else-Schl?sselwort sorgt daf?r, dass immer etwas ausgef?hrt wird falls keine der vorherigen if-Bedingungen erf?llt worden sind.  
 `if (BEDINGUNG)`  
 `{`  
   `// irgendwelcher Code`  
@@ -372,7 +376,7 @@ Das else-Schlüsselwort sorgt dafür, dass immer etwas ausgeführt wird falls keine
   `// irgend ein ausnahme Code`  
 `}` 
 
-In der Verbindung mit beiden Schlüsselwörtern also `else if` kann man nun auch weitere Bedingungen in dem IF-Block hinzufügen, um andere Bedingungen ablaufen zu können.
+In der Verbindung mit beiden Schl?sselw?rtern also `else if` kann man nun auch weitere Bedingungen in dem IF-Block hinzuf?gen, um andere Bedingungen ablaufen zu k?nnen.
 
 `if (BEDINGUNG)`  
 `{`  
@@ -387,7 +391,7 @@ In der Verbindung mit beiden Schlüsselwörtern also `else if` kann man nun auch w
   `// irgend ein ausnahme Code`  
 `}`  
 ## Booleans und Vergleichsoperatoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Booleans werden häufig mit bool abgekürzt, sind 1 Bit groß und können sowohl 0=false als auch 1 = true sein.  
+Booleans werden h?ufig mit bool abgek?rzt, sind 1 Bit gro? und k?nnen sowohl 0=false als auch 1 = true sein.  
 
 Bei einer IF-Verweigung kann man diesen Datentypen mit einem sogenannten Vergleichsoperator (==)verwenden, um einen bestimmte Bedingung zu definieren.  
 `bool x = true;`  
@@ -396,37 +400,37 @@ Bei einer IF-Verweigung kann man diesen Datentypen mit einem sogenannten Verglei
 `if (wahrheit){`
 `}`
 
-Hier wird also der Code in dem if-Block ausgeführt da x und y gleich sind.  
+Hier wird also der Code in dem if-Block ausgef?hrt da x und y gleich sind.  
 
-Es gibt auch noch Verlgeichssoperatoren die Abfragen ob etwas größer (>), kleiner (<), größergleich (>=) oder kleinergleich(<=) dem folgenden Wert ist.  
+Es gibt auch noch Verlgeichssoperatoren die Abfragen ob etwas gr??er (>), kleiner (<), gr??ergleich (>=) oder kleinergleich(<=) dem folgenden Wert ist.  
 
-Falls man auch Ungleichheit prüfen möchte, gibt es auch noch die folgenden Schreibweisen:  
+Falls man auch Ungleichheit pr?fen m?chte, gibt es auch noch die folgenden Schreibweisen:  
 `x != y;` oder `x <> y;` oder `x ~= y;`  
 
-Ein boolscher Wert kann auch negiert werden so das immer der gegenteilige Wert übergeben wird.  
+Ein boolscher Wert kann auch negiert werden so das immer der gegenteilige Wert ?bergeben wird.  
 `bool falschheit = !wahrheit;`
 ## Logische Operatoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Die logischen Operatoren können mit boolschen Werten verknüpft werden.  
+Die logischen Operatoren k?nnen mit boolschen Werten verkn?pft werden.  
 
 Der Und-Operator (AND o. &&) ist nur wahr wenn beide Werte wahr sind.  
 `bool log = true;`  
 `bool log2 = true;`  
 `bool ergebnis = log && log2;`  
 
-Der Oder-Operator (OR o. || o. ^) gibt wahr zurück wenn mindestens ein Wert wahr ist, also gibt er nur falsch zürck wenn beide Werte falsch sind.  
+Der Oder-Operator (OR o. || o. ^) gibt wahr zur?ck wenn mindestens ein Wert wahr ist, also gibt er nur falsch z?rck wenn beide Werte falsch sind.  
 `bool ergebnis = log || log2;`  
 
-Falls man nun beide Operatoren in einer Bedingung verwenden möchte, hat der Und-Operator (AND o. &&) eine stärkere Gewichtung als der Oder-Operator (OR o. || o. ^). Dies ist vergleichbar mit der Punkt vor Strich-Rechnung aus der Mathematik.  
+Falls man nun beide Operatoren in einer Bedingung verwenden m?chte, hat der Und-Operator (AND o. &&) eine st?rkere Gewichtung als der Oder-Operator (OR o. || o. ^). Dies ist vergleichbar mit der Punkt vor Strich-Rechnung aus der Mathematik.  
 `if ((a && b) || (a && c)){`  
 `}`  
 
-Hier können aber auch Klammern gesetzt werden, um die Oder-Verknüpfung zuerst ausführen lassen zu können.  
+Hier k?nnen aber auch Klammern gesetzt werden, um die Oder-Verkn?pfung zuerst ausf?hren lassen zu k?nnen.  
 `if (a && (b || a) && c){`  
 `}`  
 ## Bitweise Operatoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Die Bitweisen Operatoren sind ähnlich wie die logischen operatoren, werden aber auf ganzzahlige Werte angewendet.  
+Die Bitweisen Operatoren sind ?hnlich wie die logischen operatoren, werden aber auf ganzzahlige Werte angewendet.  
 
-Hier werden meistens Hexadezimale- (0x...) oder Binärzahlen(0b...) verwendet.  
+Hier werden meistens Hexadezimale- (0x...) oder Bin?rzahlen(0b...) verwendet.  
 0123456789ABCDEF (0-15)  = 4 Bit o. 2^4  
 
 Bei den Bitweisen Operatoren wird also jedes einzelne Bit mit dem bitweisen Und- (&) oder Oder-Operator (|) verglichen.  
@@ -449,7 +453,7 @@ Bitweiser Oder-Operator (|):
 1010 1010 1010 1111  
 `int ergebnis = 0xAAAF;`  
 
-Sowohl bei den logischen als auch bei den bitweisen Operatoren gibt es auch noch den Entweder/Oder-Operator (XOR o. ^), der immer dann wahr zurück gibt, wenn nur einer der beiden Werte wahr ist. Also wird hier immer wenn beide Werte gleich sind falsch zurück gegeben.  
+Sowohl bei den logischen als auch bei den bitweisen Operatoren gibt es auch noch den Entweder/Oder-Operator (XOR o. ^), der immer dann wahr zur?ck gibt, wenn nur einer der beiden Werte wahr ist. Also wird hier immer wenn beide Werte gleich sind falsch zur?ck gegeben.  
 
 Bitweiser Entweder/Oder-Operator (XOR o. ^):  
 `int bitmaske = 0x000F;`  
@@ -460,7 +464,7 @@ Bitweiser Entweder/Oder-Operator (XOR o. ^):
 1010 1010 1010 0101  
 `int ergebnis = 0xAAA5;`  
 
-Es gibt auch noch das Bitshiften, womit man eine vorgegebene Anzahl an Bits aus einer Bitreihe vorne oder hinten abkappt, die verleibenden Bits aufrücken lässt und die leeren Plätze mit den selben Bitwerten füllt wie der naheliegenste Bit.  
+Es gibt auch noch das Bitshiften, womit man eine vorgegebene Anzahl an Bits aus einer Bitreihe vorne oder hinten abkappt, die verleibenden Bits aufr?cken l?sst und die leeren Pl?tze mit den selben Bitwerten f?llt wie der naheliegenste Bit.  
 `int wert = 0xAAAA;`  
 1010 1010 1010 1010  
 `int ergebnis = wert >> 3;`  
@@ -471,7 +475,7 @@ Es gibt auch noch das Bitshiften, womit man eine vorgegebene Anzahl an Bits aus 
 `int ergebnis = bitmaske >> 3;`  
 0000 0000 0000 0001  
 
-Mit dem erweiterten Bitshift-Operator (>>>) kann man auch festlegen, dass die leeren Plätze immer mit 0 aufgefüllt werden sollen.  
+Mit dem erweiterten Bitshift-Operator (>>>) kann man auch festlegen, dass die leeren Pl?tze immer mit 0 aufgef?llt werden sollen.  
 
 `int wert = 0xAAAA;`   
 1010 1010 1010 1010  
@@ -481,7 +485,7 @@ Mit dem erweiterten Bitshift-Operator (>>>) kann man auch festlegen, dass die le
 
 Das funktioniert aber nur die Rechte-Richtung!  
 
-Das gleiche funktioniert auch in die andere Richtung, nur wird hier immer mit 0 aufgefüllt.
+Das gleiche funktioniert auch in die andere Richtung, nur wird hier immer mit 0 aufgef?llt.
 
 `int wert = 0xAAAA;`   
 1010 1010 1010 1010  
@@ -489,53 +493,53 @@ Das gleiche funktioniert auch in die andere Richtung, nur wird hier immer mit 0 
 0101 0101 0101 0000  
 `int ergebnis = 0x5550;`
 ## While Schleifen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Schleifen sorgen generell dafür Code mehrfach ausführen zu können.  
+Schleifen sorgen generell daf?r Code mehrfach ausf?hren zu k?nnen.  
 
-Bei der while Schleife wird der Code solange mehrfach ausgeführt, wie die Bedingung erfüllt also wahr ist.  
+Bei der while Schleife wird der Code solange mehrfach ausgef?hrt, wie die Bedingung erf?llt also wahr ist.  
 `while (BEDINGUNG){`  
 `}`  
 o.  
 `while (BEDINGUNG){`  
 `}`  
 
-Wenn sich die Bedingung im Code nie ändert, erzeugt man eine Endlosschleife, die den Code permanent ausführt.  
+Wenn sich die Bedingung im Code nie ?ndert, erzeugt man eine Endlosschleife, die den Code permanent ausf?hrt.  
 `bool wahrheit = true;`  
 `while (wahrheit){`  
-    `// Endlose Code ausführung`  
+    `// Endlose Code ausf?hrung`  
 `}`  
 
-Um nun einen Code nur um eine bestimmte Anzahl nach wiederholt auszuführen, arbeitet man hier mit den kleiner o. größer als Vergleichoperator und einem ganzzahligen Wert als Bedingung und einer Inkrementierung/Dekrementierung des zuvor gennanten ganzzahligen Wertes.  
+Um nun einen Code nur um eine bestimmte Anzahl nach wiederholt auszuf?hren, arbeitet man hier mit den kleiner o. gr??er als Vergleichoperator und einem ganzzahligen Wert als Bedingung und einer Inkrementierung/Dekrementierung des zuvor gennanten ganzzahligen Wertes.  
 `int i = 0;`  
 `while (i < 42){`  
     `print("hello");`  
     `i++;`  
 `}`
 
-Es gibt auch nich die do-while Schleife die man dann verwenden kann, wenn man den Code innerhalb der Schleife mindestens einmal ausführen will.  
+Es gibt auch nich die do-while Schleife die man dann verwenden kann, wenn man den Code innerhalb der Schleife mindestens einmal ausf?hren will.  
 `int i = 0;`  
 `do {`  
     `print("hello");`  
     `i++;`  
 `} while (i < 42);`  
 ## for-Schleifen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Ist eine Alternative zu while-Schleifen und wird eher genutzt wenn man etwas durchzählen möchte.  
+Ist eine Alternative zu while-Schleifen und wird eher genutzt wenn man etwas durchz?hlen m?chte.  
 `for (int i = 0; i < 42; i++)`  
 `{`  
     `// Schleifenrumpf`  
 `}`  
 
-Hier würde man von 0-41 in Einzelschritten druchiterieren.  
+Hier w?rde man von 0-41 in Einzelschritten druchiterieren.  
 
-Dies Form von Schleifen werden auch häufig für Arrays oder Listen verwendet.  
+Dies Form von Schleifen werden auch h?ufig f?r Arrays oder Listen verwendet.  
 `int[] meinArray = {42, 1337, 42, 42, 42};`  
 `for (int i = 0; i < meinArray.Length; i++)`  
 `{`  
     `System.Console.WriteLine(meinArray[i]);`  
 `}`  
 
-Hier würde jedes Element aus dem Array hintereinander auf der Konsole ausgegeben werden.  
+Hier w?rde jedes Element aus dem Array hintereinander auf der Konsole ausgegeben werden.  
 
-Die Variable `int i;` kann nur in dem for-Schleifenrumpf verwendet werden, da diese nur dort bekannt ist. Nach den Schleifendruchläufen wird der belegte Speicher hierfür also frei gegeben.
+Die Variable `int i;` kann nur in dem for-Schleifenrumpf verwendet werden, da diese nur dort bekannt ist. Nach den Schleifendruchl?ufen wird der belegte Speicher hierf?r also frei gegeben.
 ## foreach-Schleifen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Wird dazu verwendet um bspw. jedes Element eines Arrays zu durchlaufen.  
 `int[] meinIntArray = {42, 1337, 42, 42, 42};`  
@@ -546,18 +550,18 @@ Wird dazu verwendet um bspw. jedes Element eines Arrays zu durchlaufen.
 
 Hier wird jede Zahl in dem zuvor definierten Array auf der Konsole ausgegeben.  
 
-Für String-Arrays ist diese Form von Schleifen auch sehr praktisch.  
+F?r String-Arrays ist diese Form von Schleifen auch sehr praktisch.  
 `string[] meinStringArray = {"42", "dieses", "tut", "ist", "geil"};`  
 `foreach (string element in meinStringArray)`  
 `{`  
     `System.Console.WriteLine(element);`  
 `}`  
 
-Diese Form von Schleifen kommt häufig in schwachtypisierten Programmiersprachen vor.  
+Diese Form von Schleifen kommt h?ufig in schwachtypisierten Programmiersprachen vor.  
 ## break und continue [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-`break` und  `continue` sind Schlüsselwörter die in Schleifendruchläufen dazu verwendet werden, diese zu unterbrechen.  
+`break` und  `continue` sind Schl?sselw?rter die in Schleifendruchl?ufen dazu verwendet werden, diese zu unterbrechen.  
 ### continue
-Bei dem Schlüsselwort `continue` wird der derzeitige Schleifendurchlauf an der Stelle unterbrochen und es wird direkt zum nöchsten Schleifendurchlauf gesprungen.  
+Bei dem Schl?sselwort `continue` wird der derzeitige Schleifendurchlauf an der Stelle unterbrochen und es wird direkt zum n?chsten Schleifendurchlauf gesprungen.  
 `string[] meinStringArray = {"42", "dieses", "tut", "ist", "geil"};`  
 `foreach (string element in meinStringArray)`  
 `{`  
@@ -566,11 +570,11 @@ Bei dem Schlüsselwort `continue` wird der derzeitige Schleifendurchlauf an der S
     `System.Console.WriteLine(element);`  
 `}`  
 
-Hier würde also 5 mal `abc` auf der Nosole ausgegeben werden, da `print(element);` hinter dem `continue` steht.  
+Hier w?rde also 5 mal `abc` auf der Nosole ausgegeben werden, da `print(element);` hinter dem `continue` steht.  
 
 Dies funktioniert in jeglicher Form von Schleifen.  
 
-Nun kan mauch IF-Verzweigungen mit dem `continue` verwenden um dies nur unter einer Bedingung ausführen zu lassen.  
+Nun kan mauch IF-Verzweigungen mit dem `continue` verwenden um dies nur unter einer Bedingung ausf?hren zu lassen.  
 `foreach (string element in meinStringArray)`  
 `{`  
     `if (element == "42")`  
@@ -582,9 +586,9 @@ Nun kan mauch IF-Verzweigungen mit dem `continue` verwenden um dies nur unter ei
 
 Hiuer wird also nur `diesestutistgeil` auf der Konsole ausgegeben.  
 
-Wenn man generell das `continue` am Ende der Schleife setzt, verschwendet man nur unnötige Rechenzeit, da man ncihts überspringt.  
+Wenn man generell das `continue` am Ende der Schleife setzt, verschwendet man nur unn?tige Rechenzeit, da man ncihts ?berspringt.  
 ### break
-Das Schlüsselwort `break`sorgt auch dafür das der Schleifendurchlauf unterbrochen wird, nur werden hier bei alle weiteren Schleifendurchläufe die noch kommen sollten nich mehr ausgeführt.  
+Das Schl?sselwort `break`sorgt auch daf?r das der Schleifendurchlauf unterbrochen wird, nur werden hier bei alle weiteren Schleifendurchl?ufe die noch kommen sollten nich mehr ausgef?hrt.  
 `string meinStringArray = new string[] {"dieses", "tut", "ist", "geil","42", "hi", "wtf", "ist"};`  
 `foreach (string element in meinStringArray)`  
 `{`  
@@ -595,40 +599,40 @@ Das Schlüsselwort `break`sorgt auch dafür das der Schleifendurchlauf unterbroche
     `}`  
 `}`  
 
-Hier wird nur `diesestutistgeil` ausgegeben und es mach Sinn das `break` vor dem Schleifenende auszuführen, da man hier noch etwas unterbricht.  
+Hier wird nur `diesestutistgeil` ausgegeben und es mach Sinn das `break` vor dem Schleifenende auszuf?hren, da man hier noch etwas unterbricht.  
 ## Funktionen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Benötigt man um Code auslagern zu können den man mehrfach ausführen will.  
+Ben?tigt man um Code auslagern zu k?nnen den man mehrfach ausf?hren will.  
 
-Nennt man meißtens foo o. bar o. baz. und man definiert sie mit dem Schlüsselwort def o. function davor.  
+Nennt man mei?tens foo o. bar o. baz. und man definiert sie mit dem Schl?sselwort def o. function davor.  
 `function foo()`  
 `{`  
     `System.Console.WriteLine("***STARTE DAS PROGRAMM***");`  
     `System.Console.WriteLine("_________________________");`  
 `}`  
 
-Diese Funktion kann man nun über den Funktionsnamen und den runden Klammern aufrufen und z.B. in einer Schleife mehrfach ausführen.  
+Diese Funktion kann man nun ?ber den Funktionsnamen und den runden Klammern aufrufen und z.B. in einer Schleife mehrfach ausf?hren.  
 `for (int i = 0; i < 10; i++){`  
     `foo();`  
 `}`  
 
 Diese Art kennt man auch aus der Mathematik.  
 `f(x) = 2*x`  
-## Rückgabewerte [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Rückgabewerte weerden dazu benötigt um etwas von einer Funktion zurückgeben zu können.  
+## R?ckgabewerte [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+R?ckgabewerte weerden dazu ben?tigt um etwas von einer Funktion zur?ckgeben zu k?nnen.  
 
-Falls man keinen Rückgabewert verwenden möchte, nutzt man hier den Wert `void`.  
+Falls man keinen R?ckgabewert verwenden m?chte, nutzt man hier den Wert `void`.  
 `void function foo(){`  
 `}`  
 
-Um nun einen Wert von einer Funktion zurückgeben zu können, gibt man hier statt `void` einen Datentyp wie z.B. `int` an und gibt den Wert mit dem Schlüsselwort `return` zurück.  
+Um nun einen Wert von einer Funktion zur?ckgeben zu k?nnen, gibt man hier statt `void` einen Datentyp wie z.B. `int` an und gibt den Wert mit dem Schl?sselwort `return` zur?ck.  
 `int function foo(){`  
     `int ergebnis = 42*1337;`  
     `return ergebnis;`  
 `}`  
 
-Zu beachten gilt hier, das der Code nach dem `return` nicht mehr ausgeführt wird.  
+Zu beachten gilt hier, das der Code nach dem `return` nicht mehr ausgef?hrt wird.  
 
-Falls man nun eine IF-Verzweigung innerhalb der Funktion nutzen möchte, muss man immer daran denken ein `return` zurückzugeben, sonst würde ein Fehler entstehen.  
+Falls man nun eine IF-Verzweigung innerhalb der Funktion nutzen m?chte, muss man immer daran denken ein `return` zur?ckzugeben, sonst w?rde ein Fehler entstehen.  
 `int function foo(){`  
     `int ergebnis = 42*1337;`  
     `bool abc = true;`  
@@ -652,10 +656,10 @@ Ein besserer Programmierstil ist hier eine Variable `int ret` anzulegen, da man 
     `return ret;`  
 `}`  
 
-Nun kann man den Rückgabewert aus der Funktion in eine Variable schreiben. Dabei gilt zu beachten, dass die Varaible und die Funktion den selben Datentyp haben.  
+Nun kann man den R?ckgabewert aus der Funktion in eine Variable schreiben. Dabei gilt zu beachten, dass die Varaible und die Funktion den selben Datentyp haben.  
 `int meinInteger = foo();`  
 ## Parameter [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Parameter können über die runden Klammern an die Funktion übergeben werden.  
+Parameter k?nnen ?ber die runden Klammern an die Funktion ?bergeben werden.  
 `int function foo(bool abc){`  
     `int ergebnis = 42*1337;`  
     `int ret = 0;`  
@@ -667,11 +671,11 @@ Parameter können über die runden Klammern an die Funktion übergeben werden.
 `int meineVar = foo(true) // Ergebnis von 42 * 1337`  
 `int meineVar2 = foo(false) // 0`  
 
-Der Parameter muss hier, ähnlich wie bei den Rückgabewerten, den selben Datentyp haben wie die übergebene Variable.  
+Der Parameter muss hier, ?hnlich wie bei den R?ckgabewerten, den selben Datentyp haben wie die ?bergebene Variable.  
 
 Damit lassen sich auch Funktionen anandere zur Verwendung weitergeben.  
 
-Man kann auch mehrere Parameter an eine Funktion übergeben und nutzen.  
+Man kann auch mehrere Parameter an eine Funktion ?bergeben und nutzen.  
 `int function foo(bool abc, int def, int hij){`  
     `int ergebnis = def*hij;`  
     `int ret = 0;`  
@@ -683,9 +687,9 @@ Man kann auch mehrere Parameter an eine Funktion übergeben und nutzen.
 `bol meinBool = true`  
 `int meineVar = foo(meinBool, 42, 1337) // 0`  
 
-Die Parameter sind also Platzhalter die für verschiedene Ergebnise einer Funktion sorgen kann.  
+Die Parameter sind also Platzhalter die f?r verschiedene Ergebnise einer Funktion sorgen kann.  
 ## Rekursion [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Rekursion bedeutet das sich eine Funktion selbst x mal aufruft. Damit lassen sich auch Funktionen wie die Fakultät 10! = 10*9*8*7...! oder die Fibonacci-Folge 0,1,1,2,3,5,8,13... aus der Mathematik berechnen und abbilden.  
+Rekursion bedeutet das sich eine Funktion selbst x mal aufruft. Damit lassen sich auch Funktionen wie die Fakult?t 10! = 10*9*8*7...! oder die Fibonacci-Folge 0,1,1,2,3,5,8,13... aus der Mathematik berechnen und abbilden.  
 int function fakul (int n){
     if (n <= 2){
         return n;
@@ -711,20 +715,20 @@ Als Parameter einer Funktion kann auch ein Defaul Argument gesetzt werden, welch
 `}`  
 `int meineVar = foo();`  
 
-Bie mehreren Parametern funktioniert das genau so, man kann aber nur in manchen Programmiersprachen einen ausgewählten Parameter setzen.  
+Bie mehreren Parametern funktioniert das genau so, man kann aber nur in manchen Programmiersprachen einen ausgew?hlten Parameter setzen.  
 `int function foo (int n = 10, bool b = true){`  
 `}`  
 `int meineVar = foo(b = false);`  
 ## Call-by-Value vs Call-by-Reference [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Bei Call-by-Value und Call-by-Reference geht es um die unterschiedlichen Speicherverwaltungen, wenn eine Variable als Argument an eine Funktiuon übergeben wird.  
+Bei Call-by-Value und Call-by-Reference geht es um die unterschiedlichen Speicherverwaltungen, wenn eine Variable als Argument an eine Funktiuon ?bergeben wird.  
 
-Teilweise hat man die Kontrolle darüber welche Speicherverwaltung hier gentuzt wird. Meißtens wird das aber automatisiert so das man selbst keine Kontrolle darüber hat. Es ist also von der Programmiersprache abhängig ob dies möglich ist oder nicht und bei welchen Typen das jeweilige Call-by Verfahren anwendet wird.  
+Teilweise hat man die Kontrolle dar?ber welche Speicherverwaltung hier gentuzt wird. Mei?tens wird das aber automatisiert so das man selbst keine Kontrolle dar?ber hat. Es ist also von der Programmiersprache abh?ngig ob dies m?glich ist oder nicht und bei welchen Typen das jeweilige Call-by Verfahren anwendet wird.  
 
-Bei primitiven Datentypen (bool, char, short, int, long) wird meißtens ein Call-by-Value genutzt und bei Arrays und Listen ein Call-by-Reference, was wie gesagt unterschiedlich zwischen den Programmierpsrachen ist.  
+Bei primitiven Datentypen (bool, char, short, int, long) wird mei?tens ein Call-by-Value genutzt und bei Arrays und Listen ein Call-by-Reference, was wie gesagt unterschiedlich zwischen den Programmierpsrachen ist.  
 
-In Java ist es bspw. genau so wie eben beschrieben, in C++ werden Zeiger verwendet, wenn man einen Call-by-Reference haben möchte und bei C# kann man ein Schlüsselwort mit angeben um ein Call-by-Reference nutzen zu können.  
+In Java ist es bspw. genau so wie eben beschrieben, in C++ werden Zeiger verwendet, wenn man einen Call-by-Reference haben m?chte und bei C# kann man ein Schl?sselwort mit angeben um ein Call-by-Reference nutzen zu k?nnen.  
 
-Der Call-by-Value sorgt also dafür, dass eine Kopie des übergebenen Arguments erzeugt wird und diese innerhalb der Funktionen gentuzt wird ohne das die Variable die als Argument übergeben wurde verändert wird.  
+Der Call-by-Value sorgt also daf?r, dass eine Kopie des ?bergebenen Arguments erzeugt wird und diese innerhalb der Funktionen gentuzt wird ohne das die Variable die als Argument ?bergeben wurde ver?ndert wird.  
 `void function foo(int a){`  
     `a = 1337`  
 `}`  
@@ -732,7 +736,7 @@ Der Call-by-Value sorgt also dafür, dass eine Kopie des übergebenen Arguments er
 `foo(a)`  
 `print(a) // 42`  
 
-Der Call-by-Reference sorgt dafür das die Speicheraddresse die auf die Variablen zeigt die als Argument übergeben wird an die Funktion übergeben wird, sodass sich die Variable innerhalb der Funktion ändert und man mit der geändert Variablen weiter arbeiten kann.  
+Der Call-by-Reference sorgt daf?r das die Speicheraddresse die auf die Variablen zeigt die als Argument ?bergeben wird an die Funktion ?bergeben wird, sodass sich die Variable innerhalb der Funktion ?ndert und man mit der ge?ndert Variablen weiter arbeiten kann.  
 `void function foo(List list){`  
     `list = {4, 5, 6}`  
 `}`  
@@ -740,7 +744,7 @@ Der Call-by-Reference sorgt dafür das die Speicheraddresse die auf die Variablen
 `foo(list)`  
 `print(list) // 4, 5, 6`  
 
-Um nun bspw. einen Integer mit einem Call-by-Reference aufrufen zu können, gibt es in manchen Programmiersprachen das Schlüsselwort `ref`.  
+Um nun bspw. einen Integer mit einem Call-by-Reference aufrufen zu k?nnen, gibt es in manchen Programmiersprachen das Schl?sselwort `ref`.  
 `void function foo(ref int a){`  
     `a = 1337`  
 `}`  
@@ -748,28 +752,28 @@ Um nun bspw. einen Integer mit einem Call-by-Reference aufrufen zu können, gibt 
 `foo(a)`  
 `print(a) // 1337`  
 
-Somit kann man im Prinzip mehrere Rückgabewerte aus einer Funktion herausbekommen.
+Somit kann man im Prinzip mehrere R?ckgabewerte aus einer Funktion herausbekommen.
 ## Lazy Evaluation [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Normalerweise wird in Programmiersprachen eine Eager Evaluation durchgeführt die dafür sorgt das immer alle Bestandteile bspw. einer Liste aufgebaut und ausgeführt werden bevor man mit einem Index darauf zugreift.  
+Normalerweise wird in Programmiersprachen eine Eager Evaluation durchgef?hrt die daf?r sorgt das immer alle Bestandteile bspw. einer Liste aufgebaut und ausgef?hrt werden bevor man mit einem Index darauf zugreift.  
 `List list = {42, 1337, sleep(3)}`  
 `print(list[1])`  
 
-Hier würde mit der Eager Evaluation die sleep-Funktion bei der Erstellung der Liste ausgeführt werden, obwohl wir gar nicht mit dem Index im weiteren Codefluss darauf zugreifen.  
+Hier w?rde mit der Eager Evaluation die sleep-Funktion bei der Erstellung der Liste ausgef?hrt werden, obwohl wir gar nicht mit dem Index im weiteren Codefluss darauf zugreifen.  
 
-Bei der Lazy Evaluation, die meißtens in funktionalen Programmiersprachen vorkommt, wird erst geschaut welches Element in der Liste gebraucht wird und dann wird nur das gewählte Element bzw. die gewählten Elemente aufgebaut und ausgeführt, was Rechenzeit spart.  
+Bei der Lazy Evaluation, die mei?tens in funktionalen Programmiersprachen vorkommt, wird erst geschaut welches Element in der Liste gebraucht wird und dann wird nur das gew?hlte Element bzw. die gew?hlten Elemente aufgebaut und ausgef?hrt, was Rechenzeit spart.  
 `List list = {42, 1337, sleep(3)}`  
 `print(list[1])`  
 
-Hier würde mit der Lazy Evaluation die sleep-Funktion bei der Erstellung der Liste nur ausgeführt werden, wenn wir mit dem Index im weiteren Codefluss darauf zugreifen würden. 
+Hier w?rde mit der Lazy Evaluation die sleep-Funktion bei der Erstellung der Liste nur ausgef?hrt werden, wenn wir mit dem Index im weiteren Codefluss darauf zugreifen w?rden. 
 ## Function Pointer [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Funktionen können auch wie eine Variable behandelt werden und erst später im Codefluss ausgeführt, werden in dem man Funktionszeiger nutzt.  
+Funktionen k?nnen auch wie eine Variable behandelt werden und erst sp?ter im Codefluss ausgef?hrt, werden in dem man Funktionszeiger nutzt.  
 `function foo(){`  
     `return 1`  
 `}`  
 `var meineFkt = foo`  
 `print(meineFkt()) // 1`  
 
-Die Funktionszeiger können auch als Parameter übergeben werden, was häufig bei Loggern genutzt wird, bzw. wenn man seinen Output selbst schreiben möchte.  
+Die Funktionszeiger k?nnen auch als Parameter ?bergeben werden, was h?ufig bei Loggern genutzt wird, bzw. wenn man seinen Output selbst schreiben m?chte.  
 `function foo(n, n2){`  
     `return n * n2`  
 `}`  
@@ -779,25 +783,25 @@ Die Funktionszeiger können auch als Parameter übergeben werden, was häufig bei L
 `}`  
 `bar(foo,42)`  
 ## Lambda Funktionen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Definiert eine Funktion innerhalb von einer Zeile, was Rechenzeit erspart. Sie muss aber in eine Variable geschrieben werden, um sie nutzen zu können.  
+Definiert eine Funktion innerhalb von einer Zeile, was Rechenzeit erspart. Sie muss aber in eine Variable geschrieben werden, um sie nutzen zu k?nnen.  
 `var fkt = (a, b) -> a * b // Java schreibweise`  
 `fkt = lambda a, b: a * b // Python schreibweise`
 
 Nun kann sie wie eine klassische Versionverwendet werden, mann kann sich auch erst in der Argumentenliste definieren.  
 `bar (lambda a, b: a * b, 42)`  
 ## Inline Funktionen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Inline Funktionen sind Omptimierungen die zwar dafür sorgen das mehr Speicherbelegt wird, aber dafür sorgt, dass das die Rechenzeit kürzer ist.  
+Inline Funktionen sind Omptimierungen die zwar daf?r sorgen das mehr Speicherbelegt wird, aber daf?r sorgt, dass das die Rechenzeit k?rzer ist.  
 `inline function square(double a){`  
     `return a*a;`  
 `}`  
 `print(square(4));`  
 `// Unter der Haube: print (4*4);`  
 
-Im Prinzip wird hier an der Stelle wo die Funktion aufgerufen werden würde, der Inhalt der Funktion direkt in den Quelltext geschrieben ohne einen Funktuionsaufruf dazwischen zu haben.  
+Im Prinzip wird hier an der Stelle wo die Funktion aufgerufen werden w?rde, der Inhalt der Funktion direkt in den Quelltext geschrieben ohne einen Funktuionsaufruf dazwischen zu haben.  
 ## Code lesen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Programmieren lern man am besten, in dem man sich auch fremden Code durchliest und diesen versteht.  
 
-Dazu kann man sich bei den meißten Programmiersprachen die Referenzen des Sourcecode der eigenen Standard-Bibliothek ansehen.  
+Dazu kann man sich bei den mei?ten Programmiersprachen die Referenzen des Sourcecode der eigenen Standard-Bibliothek ansehen.  
 Java: http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d/src/share/classes/java/lang  
 C#: https://referencesource.microsoft.com/#mscorlib  
 C++: https://en.cppreference.com/w/  
@@ -806,7 +810,7 @@ Hiervon kann man sich nun einzelne Funktionen oder Methoden angucken und versuch
 ## Klassen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Ist ein Konzept, welches mehr Struktur und Ordnung in ein Projekt bringt.  
 
-Grade für große Projekte ist dieses Konzept essentiel wichtig, da so eine bessere Übersicht gegeben ist.  
+Grade f?r gro?e Projekte ist dieses Konzept essentiel wichtig, da so eine bessere ?bersicht gegeben ist.  
 
 Ein Klasse ist an sich eine Blaupause von etwas was konkretisiert werden kann.  
 `class Schule{`  
@@ -814,9 +818,9 @@ Ein Klasse ist an sich eine Blaupause von etwas was konkretisiert werden kann.
     `int anzahlSchueler;`  
 `}`  
 
-Hier wird als eine Klasse `Schule` definiert die einen Wert für den Namen der Schule und einen Wert für die Anzahl der Schüler bereit stellt. Die Variablen haben hier fürs erste einen von der Programmiersprache definierten Standardwert zugewiesen bekommen, der bspw- beim String `null` oder ein Leerstring (`" "`) und beim Integer eine `0` sein kann.  
+Hier wird als eine Klasse `Schule` definiert die einen Wert f?r den Namen der Schule und einen Wert f?r die Anzahl der Sch?ler bereit stellt. Die Variablen haben hier f?rs erste einen von der Programmiersprache definierten Standardwert zugewiesen bekommen, der bspw- beim String `null` oder ein Leerstring (`" "`) und beim Integer eine `0` sein kann.  
 
-Diese kann jetzt instanziiert werden, es können also jetzt mehrere Schulen konretisiert werden.  
+Diese kann jetzt instanziiert werden, es k?nnen also jetzt mehrere Schulen konretisiert werden.  
 `Schule youtube = new Schule();`  
 `youtube.name = "The Morpheus Tutorials";`  
 `youtube.anzahlSchueler = 13000;`  
@@ -824,13 +828,13 @@ Diese kann jetzt instanziiert werden, es können also jetzt mehrere Schulen konre
 `kit.name = "KIT";`  
 `kit.anzahlSchueler = 23000;`  
 
-Wenn sich also gewiise Gemeinsamkeiten bei mehreren Konstrukten abbilden lassen können, kann man hiermit sehr gut eine Klasse erstellen die diese Wert definiert, sodass die Werte nur noch deklariert werden müssen.  
+Wenn sich also gewiise Gemeinsamkeiten bei mehreren Konstrukten abbilden lassen k?nnen, kann man hiermit sehr gut eine Klasse erstellen die diese Wert definiert, sodass die Werte nur noch deklariert werden m?ssen.  
 ## Methoden  [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Sind an sich auch nur Funktionen, die die besondere Eigenschaft haben direkt auch Variablen in der selben Klasse zugreifen zu können, bzw. bekommen diese die selbe Klasse unter der Haube zugewiesen.  
+Sind an sich auch nur Funktionen, die die besondere Eigenschaft haben direkt auch Variablen in der selben Klasse zugreifen zu k?nnen, bzw. bekommen diese die selbe Klasse unter der Haube zugewiesen.  
 
-In den meißten Programmiersprachen wird das automaitsch von der Klasse übernommen, in Python wird aber bspw. das `self`-Schlüsselwort dazu als Parameter übergeben um diese Funktion gewährleisten zu können.  
+In den mei?ten Programmiersprachen wird das automaitsch von der Klasse ?bernommen, in Python wird aber bspw. das `self`-Schl?sselwort dazu als Parameter ?bergeben um diese Funktion gew?hrleisten zu k?nnen.  
 
-Die meißten Programmiersprachen nutzen das `this`-Schlüsselwort um die Variablen inder der Klasse nutzen zu können, man kann sie aber auch ohne das Schlüsselwort direkt nutznen.  
+Die mei?ten Programmiersprachen nutzen das `this`-Schl?sselwort um die Variablen inder der Klasse nutzen zu k?nnen, man kann sie aber auch ohne das Schl?sselwort direkt nutznen.  
 `class Schule{`  
     `string name;`  
     `int anzahlSchueler;`  
@@ -843,11 +847,11 @@ Die meißten Programmiersprachen nutzen das `this`-Schlüsselwort um die Variablen
 `youtube.anzahlSchueler = 13000;`  
 `youtube.neuerSchueler(); //anzahlSchueler = 13001`  
 
-Hier wird bspw. die Variable `anzahlSchueler` nur durch den Methodenaufruf `neuerSchueler()` um 1 erhöht.  
+Hier wird bspw. die Variable `anzahlSchueler` nur durch den Methodenaufruf `neuerSchueler()` um 1 erh?ht.  
 ## Konstruktoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Ein Konstruktor ist die erste Methode die in einer Klasse aufgerufen wird und setzt standardmäßig alle Klassenvariablen auf einen Standardwert und belegt somit den dementsprechenden Speicher, was je nach Programmiersprache unterschiedlich ist. Man also eigentlich immer einen Standardkonstruktor der unter der Haube ausgeführt wird.  
+Ein Konstruktor ist die erste Methode die in einer Klasse aufgerufen wird und setzt standardm??ig alle Klassenvariablen auf einen Standardwert und belegt somit den dementsprechenden Speicher, was je nach Programmiersprache unterschiedlich ist. Man also eigentlich immer einen Standardkonstruktor der unter der Haube ausgef?hrt wird.  
 
-Aufgerufen wird dieser Konstruktor bei der Erzeugung einer Instanz mit dem `new`-Schlüsselwort.  
+Aufgerufen wird dieser Konstruktor bei der Erzeugung einer Instanz mit dem `new`-Schl?sselwort.  
 `class Schule{`  
     `string name;`  
     `int anzahlSchueler;`  
@@ -858,7 +862,7 @@ Aufgerufen wird dieser Konstruktor bei der Erzeugung einer Instanz mit dem `new`
 `}`  
 `Schule schule = new Schule();`  
 
-Nun kann man auch einen eigenen Konstruktor schreiben, in dem man sogar eine Parameterliste einbauen kann. Wenn man das tut verfällt der Standardkonstruktor unter der Haube.  
+Nun kann man auch einen eigenen Konstruktor schreiben, in dem man sogar eine Parameterliste einbauen kann. Wenn man das tut verf?llt der Standardkonstruktor unter der Haube.  
 `class Schule{`  
     `string name;`  
     `int anzahlSchueler;`  
@@ -869,11 +873,11 @@ Nun kann man auch einen eigenen Konstruktor schreiben, in dem man sogar eine Par
 `}`  
 `Schule kit = new Schule("KIT", 23000);`  
 
-Hier kann jetzt nur noch eine Instanz erzeugt werden, wenn die Parameterliste gefüllt ist.  
+Hier kann jetzt nur noch eine Instanz erzeugt werden, wenn die Parameterliste gef?llt ist.  
 
-Das `this`-Schlüsselwort ist hier nun relevanter, da man hiermit sicherstellen kann, dass die Variable in der Klasse gemeint ist und nicht das Argument welches an die Funktion übergeben wird.  
+Das `this`-Schl?sselwort ist hier nun relevanter, da man hiermit sicherstellen kann, dass die Variable in der Klasse gemeint ist und nicht das Argument welches an die Funktion ?bergeben wird.  
 
-Falls man jetzt Standardwerte für die Parameter des Kosntruktor setzten möchte, lann man von der Klasse auch wieder Instanzen erzeugen, die keinen Parameter übergeben bekommen.  
+Falls man jetzt Standardwerte f?r die Parameter des Kosntruktor setzten m?chte, lann man von der Klasse auch wieder Instanzen erzeugen, die keinen Parameter ?bergeben bekommen.  
 `class Schule{`  
     `string name;`  
     `int anzahlSchueler;`  
@@ -884,9 +888,9 @@ Falls man jetzt Standardwerte für die Parameter des Kosntruktor setzten möchte, 
 `}`  
 `Schule schule = new Schule();`
 ## Zugriffsmodifikatoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Durch Zuggriffsmodifikatoren kann man den Zugriff auf eine Klasse steuern, wenn man bspw. verhindern möchte, dass eine Wert verändert wird.  
+Durch Zuggriffsmodifikatoren kann man den Zugriff auf eine Klasse steuern, wenn man bspw. verhindern m?chte, dass eine Wert ver?ndert wird.  
 
-Die grundlegenenden Zugriffsmodifikatoren die es in so ziemlicher jeder Programmierpsrache gibt,  sind `public` und `private`. `public` ist meißtens der standardmäßige Zugriffsmodifikator und sorgt dafür das jeglicher Zugriff auf die Klassenvariable, Methode oder Klasse an sich erlaubt ist, während `private` dafür sorgt das nur ein Zugriff innerhalb der Klasse erlaubt ist.  
+Die grundlegenenden Zugriffsmodifikatoren die es in so ziemlicher jeder Programmierpsrache gibt,  sind `public` und `private`. `public` ist mei?tens der standardm??ige Zugriffsmodifikator und sorgt daf?r das jeglicher Zugriff auf die Klassenvariable, Methode oder Klasse an sich erlaubt ist, w?hrend `private` daf?r sorgt das nur ein Zugriff innerhalb der Klasse erlaubt ist.  
 `public class Schule{`  
     `public string name;`  
     `private int anzahlSchueler;`  
@@ -897,9 +901,9 @@ Die grundlegenenden Zugriffsmodifikatoren die es in so ziemlicher jeder Programm
 `}`  
 `Schule kit = new Schule("KIT", 23000);`  
 
-Hier kann man zwar die Variable `int anzahlSchueler` beim Initialisieren durch den Konstruktor setzen, man kann aber durch das `private`-Schlüsselwort nicht mehr darauf zugreifen.  
+Hier kann man zwar die Variable `int anzahlSchueler` beim Initialisieren durch den Konstruktor setzen, man kann aber durch das `private`-Schl?sselwort nicht mehr darauf zugreifen.  
 ## Getter/Setter [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Um nun `private` Variablen nur auslesbar oder nur schreibbar zu machen, gibt es sogenannte Getter- und Setter-Methoden, die dies druch einen Methodenaufruf ermöglichen.  
+Um nun `private` Variablen nur auslesbar oder nur schreibbar zu machen, gibt es sogenannte Getter- und Setter-Methoden, die dies druch einen Methodenaufruf erm?glichen.  
 `public class Schule{`  
     `private int anzahlSchueler;`  
     `public Schule(int anzahlSchueler){`  
@@ -928,26 +932,26 @@ Hier kann man also nur noch die Variable auslesen und nicht mehr schreiben.
     `}`  
 `}`  
 
-Hier kann man durch den Setter dafür sorgen, dass die Anzahl der Schüler nur auf einen positiven Wert gesetzt wird.  
+Hier kann man durch den Setter daf?r sorgen, dass die Anzahl der Sch?ler nur auf einen positiven Wert gesetzt wird.  
 
-Wenn man also im Getter nur die Variable zurück gibt und im Setter nur die Variable setzt, kann man besser einfach die Variable auf `public` setzen.  
+Wenn man also im Getter nur die Variable zur?ck gibt und im Setter nur die Variable setzt, kann man besser einfach die Variable auf `public` setzen.  
 ## Static - Klassenvariablen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Falls man einen Wert setzen möchte der für alle Instanzen einer Klasse gleich sien soll, benutzt man dazu `static`-Klassenvariablen.  
+Falls man einen Wert setzen m?chte der f?r alle Instanzen einer Klasse gleich sien soll, benutzt man dazu `static`-Klassenvariablen.  
 `public class Schule{`  
     `public static string gesetzesgrundlage = "SchG";`  
 `}`  
 
-Diese `static`-Klassenvariable ist nun für alle Instanzen gleich und sie belegt auch nur einmalig den Speicher.  
+Diese `static`-Klassenvariable ist nun f?r alle Instanzen gleich und sie belegt auch nur einmalig den Speicher.  
 `Schule kit = new Schule();`  
 `Schule youtube = new Schule();`  
 `// kit.gesetzesgrundlage == youtube.gesetzesgrundlage`  
 
-Je nach Programmierpsrache kann man diesen Wert jetzt ändern, dieser wird aber dann für alle Instanzen geändert.  
+Je nach Programmierpsrache kann man diesen Wert jetzt ?ndern, dieser wird aber dann f?r alle Instanzen ge?ndert.  
 `// Schule.gesetzesgrundlage = "abc" o. kit.gesetzesgrundlage = "abc"`  
 
-Man kann hier auch Getter- und Setter-Methoden benutzen nur müssen die auch `static` sein und man kann hier keine Variablen nutzen die nicht `static` sind.  
+Man kann hier auch Getter- und Setter-Methoden benutzen nur m?ssen die auch `static` sein und man kann hier keine Variablen nutzen die nicht `static` sind.  
 
-Da das `this`-Schlüsselwort auch nur für nicht statische Variablen funktioniert, nutzt man hier statt dessen den Klassennamen.  
+Da das `this`-Schl?sselwort auch nur f?r nicht statische Variablen funktioniert, nutzt man hier statt dessen den Klassennamen.  
 `public class Schule{`  
     `private static string gesetzesgrundlage = "SchG";`  
     `public static string getGesetzesgrundlage(){`  
@@ -957,9 +961,9 @@ Da das `this`-Schlüsselwort auch nur für nicht statische Variablen funktioniert,
 ## Vererbung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Eine Vererbung ist eine Verbindung zwischen Klassen.  
 
-Generell solte man beim Programmieren nie Copy-Pasten müssen, da man immer besser Funktion/Klassen erstellt oder von anderen erbt, um den selben Code mehrfach aufzurufen.  
+Generell solte man beim Programmieren nie Copy-Pasten m?ssen, da man immer besser Funktion/Klassen erstellt oder von anderen erbt, um den selben Code mehrfach aufzurufen.  
 
-Wenn man nun seine Klasse spezifizieren will und die selben Variablen und Methoden aus einer Klasse benötigt, kann man die Vererbung nutzen.  
+Wenn man nun seine Klasse spezifizieren will und die selben Variablen und Methoden aus einer Klasse ben?tigt, kann man die Vererbung nutzen.  
 `class Schule{`  
     `public string name;`  
     `public int anzahlSchueler;`  
@@ -972,7 +976,7 @@ Hier kann man jetzt eine Instanz von der Klasse `Gymnasium` erzeugen und die gle
 `g.name = "MeinGymmi";`  
 `g.anzahlSchueler = 400;`  
 
-Der Klasse `Gymnasium` kann man jetzt auch eigene passende Variablen und Methoden hinzufügen und nutzen, diese haben dann natürlich nichts mehr mit der Klasse `Schule` zu tun.  
+Der Klasse `Gymnasium` kann man jetzt auch eigene passende Variablen und Methoden hinzuf?gen und nutzen, diese haben dann nat?rlich nichts mehr mit der Klasse `Schule` zu tun.  
 `class Schule{`  
     `public string name;`  
     `public int anzahlSchueler;`  
@@ -993,15 +997,15 @@ Beim TypeCast wird eine Instanz einer Klasse in ihrer vererbten Klasse erzeugt u
 `}`  
 `Schule g = new Gymnasium();`  
 
-Hier gibt es das UpperTypeCast-Verfahren, welches dafür sorgt das nur die Variablen der Eltern Klasse bei der Instanz verwendet werden kann, die Inszanz ist aber immer noch vom Typ der Tochter-Klasse. Die Variablen die nur in der Tochter-Klasse vorkommen sind zwar da, haben aber temporär keinen Zugriff.  
+Hier gibt es das UpperTypeCast-Verfahren, welches daf?r sorgt das nur die Variablen der Eltern Klasse bei der Instanz verwendet werden kann, die Inszanz ist aber immer noch vom Typ der Tochter-Klasse. Die Variablen die nur in der Tochter-Klasse vorkommen sind zwar da, haben aber tempor?r keinen Zugriff.  
 
-Jetzt kann man also durch sämtliche Instanzen mit bspw. einem Array durch iteriern die sowohl direkt von der Klasse erzeugt wurden, als auch die, die von den vererbten Klassen erzeugt worden sind.  
+Jetzt kann man also durch s?mtliche Instanzen mit bspw. einem Array durch iteriern die sowohl direkt von der Klasse erzeugt wurden, als auch die, die von den vererbten Klassen erzeugt worden sind.  
 `Schule youtube = new Schule();`  
 `Gymnasium g = new Gymnasium();`  
 `Schule g2 = g;`  
 
 
-Nun gibt es auch den DownTypeCast, welcher meißtens einen Typ zu gewiesen bekommen muss.  
+Nun gibt es auch den DownTypeCast, welcher mei?tens einen Typ zu gewiesen bekommen muss.  
 `Schule youtube = new Schule();`  
 `Gymnasium g = new Gymnasium();`  
 `Schule g2 = g;`  
@@ -1012,15 +1016,15 @@ Nun gibt es auch den DownTypeCast, welcher meißtens einen Typ zu gewiesen bekomm
     `i.neuerSchueler();`  
 `}`  
 
-Diese Verfahren kann zu einem Absturz des Programms führen, wenn die Variable der Eltern-KLasse zuvor mit dem `new`-Schlüsselwort instanziiert wurde.  
+Diese Verfahren kann zu einem Absturz des Programms f?hren, wenn die Variable der Eltern-KLasse zuvor mit dem `new`-Schl?sselwort instanziiert wurde.  
 ## instanceof [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das 'instanceof`-Schlüsselwort prüft ob eine Instanz von einer anderen Klasse bzw. deren Elternklassen instanziiert wurde. Dieses Schlüsselwort sollte man meiden zu nutzen, es macht aber sinn es anzuwenden bevor man einen TypeDownCast durchführt, den man auch nciht durchführen sollte,da dies unsicher ist.
+Das 'instanceof`-Schl?sselwort pr?ft ob eine Instanz von einer anderen Klasse bzw. deren Elternklassen instanziiert wurde. Dieses Schl?sselwort sollte man meiden zu nutzen, es macht aber sinn es anzuwenden bevor man einen TypeDownCast durchf?hrt, den man auch nciht durchf?hren sollte,da dies unsicher ist.
 ## typeof [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das `typeof`-Schlüsselwort prüft ob eine Instanz von einer bestimmten Klasse instanziiert wurde.  
-## Überschreiben von Methoden [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Um eine Methode einer Oberklasse zu überschreiben, schreibt man eine Methode genau so in der Unterklasse auf.  
+Das `typeof`-Schl?sselwort pr?ft ob eine Instanz von einer bestimmten Klasse instanziiert wurde.  
+## ?berschreiben von Methoden [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Um eine Methode einer Oberklasse zu ?berschreiben, schreibt man eine Methode genau so in der Unterklasse auf.  
 
-Dadurch erzeugt man eine dynamische Bindung die dafür sorgt, dass wenn man durch ein Array gemischt aus Ober- und Unterklassen iterriert, man immer die deklariert bzw. die überschrieben Methode nutzt.  
+Dadurch erzeugt man eine dynamische Bindung die daf?r sorgt, dass wenn man durch ein Array gemischt aus Ober- und Unterklassen iterriert, man immer die deklariert bzw. die ?berschrieben Methode nutzt.  
 `class Schule`  
 `{`  
     `public int anzahlSchueler;`  
@@ -1054,28 +1058,28 @@ Dadurch erzeugt man eine dynamische Bindung die dafür sorgt, dass wenn man durch
     `item.neuerSchueler();`  
 `}`  
 ## Enums [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Enum ist die Abkürzung von Enumeration was Aufzählung heisst.  
+Enum ist die Abk?rzung von Enumeration was Aufz?hlung heisst.  
 
-Dieses Konstrukt ermöglichtes es eine aufeinanderfolgende Menge von zusammenhängenden Werten gruppieren zu können, dies sorgt für eine bessere Lesbarkeit des Codes.  
+Dieses Konstrukt erm?glichtes es eine aufeinanderfolgende Menge von zusammenh?ngenden Werten gruppieren zu k?nnen, dies sorgt f?r eine bessere Lesbarkeit des Codes.  
 `enum Richtung`  
 `{`  
     `HOCH, RUNTER, LINKS, RECHTS`  
 `}`  
 
-Hier bennent man also einfach seine Aufzählung `enum Richtung` und schreibt einfach seine Werte mit einem Komma getrennt auf. Diese Werte sind unter der Haube Integer und werden standardmäßig wie beim Index bei Datenstrukturen beginnend mit dem Wert 0, 1, 2... usw. zugewiesen.  
-## Operatoren überschreiben [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das Überschreiben von Operatoren wird häufig bei komplexen Zahlen genutzt und wird wie eine Methode in eine Klasse geschrieben inkl. des Operators der überschrieben werden soll.  
+Hier bennent man also einfach seine Aufz?hlung `enum Richtung` und schreibt einfach seine Werte mit einem Komma getrennt auf. Diese Werte sind unter der Haube Integer und werden standardm??ig wie beim Index bei Datenstrukturen beginnend mit dem Wert 0, 1, 2... usw. zugewiesen.  
+## Operatoren ?berschreiben [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Das ?berschreiben von Operatoren wird h?ufig bei komplexen Zahlen genutzt und wird wie eine Methode in eine Klasse geschrieben inkl. des Operators der ?berschrieben werden soll.  
 `class Complex{`  
     `public int real;`  
-    `public int imaginär;`  
-    `// real + i * imaginär`  
+    `public int imagin?r;`  
+    `// real + i * imagin?r`  
     `public static Complex operator +(Complex a, Complex b)`  
     `{`  
-        `return new Complex(a.real + b.real, a.imaginär + b.imaginär);`  
+        `return new Complex(a.real + b.real, a.imagin?r + b.imagin?r);`  
     `}`  
 `}`  
 ## Super [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das `Super`-Schlüsselwort nutzt man um in einer Unterklasse eine Methode der Oberklasse aufzurufen.  
+Das `Super`-Schl?sselwort nutzt man um in einer Unterklasse eine Methode der Oberklasse aufzurufen.  
 `class Schule{`  
     `public int anzahlSchueler;`  
     `public void neuerSchueler(){`  
@@ -1093,11 +1097,11 @@ Das `Super`-Schlüsselwort nutzt man um in einer Unterklasse eine Methode der Obe
         `Super.neuerSchueler();`  
     `}`  
 `}`  
-Hier wird bspw. das `Super`-Schlüsselwort benutzt um klar zu stellen das man die Methode der Oberklasse verwenden möchte und nicht die überschrieben Methode in der selben Klasse.  
+Hier wird bspw. das `Super`-Schl?sselwort benutzt um klar zu stellen das man die Methode der Oberklasse verwenden m?chte und nicht die ?berschrieben Methode in der selben Klasse.  
 ## Interfaces [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das `interface`-Schlüsselwort wird dazu verwendet ein Interface zu definieren, wovon ähnlich wie bei einer normalen Klasse vererbt werden kann.  
+Das `interface`-Schl?sselwort wird dazu verwendet ein Interface zu definieren, wovon ?hnlich wie bei einer normalen Klasse vererbt werden kann.  
 
-Ein Interface selbst kann nicht instanziiert werden und es werden nur Methodenköpfe innerhalb eines Interfaces definiert die, wenn man sie an eine Klasse vererbt zwingend definiert werden müssen.  
+Ein Interface selbst kann nicht instanziiert werden und es werden nur Methodenk?pfe innerhalb eines Interfaces definiert die, wenn man sie an eine Klasse vererbt zwingend definiert werden m?ssen.  
 `interface BildungInstanz{`  
     `public function void neuerSchueler();`  
 `}`  
@@ -1113,11 +1117,11 @@ Nun kann man wie bei den Klassen ein Array vom Typ des definierten interfaces er
     `i.neuerSchuler();`  
 `}`  
 
-Meißtens wird nur eine Methode pro Interface definiert damit es übersichtlicher ist.
+Mei?tens wird nur eine Methode pro Interface definiert damit es ?bersichtlicher ist.
 ## Mehrfachvererbung und das Diamantenproblem [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Bei der Mehrfachvererbung kann das Problem entstehen, das wenn man eine Methode aufruft die mehrfach in der Vererbungshierarchie definiert wurde nicht klar ist, welche nun ausgeführt werden soll.  
+Bei der Mehrfachvererbung kann das Problem entstehen, das wenn man eine Methode aufruft die mehrfach in der Vererbungshierarchie definiert wurde nicht klar ist, welche nun ausgef?hrt werden soll.  
 
-Deswegen verbieten viele Programmiersprachen die Mehrfachvererbung, man kann also in diesen nur von einer Klasse erben. Es ist aber möglich von mehreren Interfaces zu erben, da hier ja keine Definition gegeben ist.  
+Deswegen verbieten viele Programmiersprachen die Mehrfachvererbung, man kann also in diesen nur von einer Klasse erben. Es ist aber m?glich von mehreren Interfaces zu erben, da hier ja keine Definition gegeben ist.  
 `interface IBildung{`  
     `public int AnzahlSchueler { get; set; }`  
     `void neuerSchueler();`  
@@ -1135,11 +1139,11 @@ Deswegen verbieten viele Programmiersprachen die Mehrfachvererbung, man kann als
     `}`  
 `}`  
 
-In C++ ist dies einfach erlaubt und würde zum Absturz des Programms führen wenn die mehrfach definierte Methode aufgerufen wird.  
+In C++ ist dies einfach erlaubt und w?rde zum Absturz des Programms f?hren wenn die mehrfach definierte Methode aufgerufen wird.  
 
-In Python ist die Reihenfolge der aufgeschrieben Klassen relevant, da immer die erste Methode mit dem gewählten Name für den Methodenaufruf ausgewählt wird die in den jeweiligen Klassen gefunden werden und dann wird der Methodenaufruf durchgeführt, ohne dass in den weiteren Klassen danach geschaut wird.  
+In Python ist die Reihenfolge der aufgeschrieben Klassen relevant, da immer die erste Methode mit dem gew?hlten Name f?r den Methodenaufruf ausgew?hlt wird die in den jeweiligen Klassen gefunden werden und dann wird der Methodenaufruf durchgef?hrt, ohne dass in den weiteren Klassen danach geschaut wird.  
 ## Abstrakte Klassen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das `abstract`-Schlüsselwort sorgt bei einer Klasse dafür das man wie bei den Interfaces nicht nicht von ihnen instanziieren kann und man Methodenköpfe definieren kann. Man kann aber auch ganz normal wie bei Klassen auch Variablen und vollständige Methoden definieren. Hierbei ist gar keine Mehrfachvererbung möglich.  
+Das `abstract`-Schl?sselwort sorgt bei einer Klasse daf?r das man wie bei den Interfaces nicht nicht von ihnen instanziieren kann und man Methodenk?pfe definieren kann. Man kann aber auch ganz normal wie bei Klassen auch Variablen und vollst?ndige Methoden definieren. Hierbei ist gar keine Mehrfachvererbung m?glich.  
 `abstract class Schule{`  
     `public int anzahlSchueler;`  
     `public void neuerSchueler();`  
@@ -1154,9 +1158,9 @@ Das `abstract`-Schlüsselwort sorgt bei einer Klasse dafür das man wie bei den In
     `}`  
 `}`  
 ## Der Zugriffsmodifikator protected [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Das `protected`-Schlüsselwort kann an den selben stellen wie die Schlüsselwörter `public` und `private` eingesetzt werden. Es sorgt dafür, dass die damit modifizierten Variblen und Methoden nur innerhalb der Klassenhierarchie aufgerufen werden können, also nur innerhalb der selben Klasse oder innerhalb der vererbten Unterklassen.  
+Das `protected`-Schl?sselwort kann an den selben stellen wie die Schl?sselw?rter `public` und `private` eingesetzt werden. Es sorgt daf?r, dass die damit modifizierten Variblen und Methoden nur innerhalb der Klassenhierarchie aufgerufen werden k?nnen, also nur innerhalb der selben Klasse oder innerhalb der vererbten Unterklassen.  
 ## Statische innere Klassen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Die statischen inneren Klassen können dazu verwendet werden, selbst definierte Objekte an eine Klasse zu binden, also man kann nur Objekte dieser Klasse erzuegen wenn die äußere Klasse bereits instanziiert wurde.  
+Die statischen inneren Klassen k?nnen dazu verwendet werden, selbst definierte Objekte an eine Klasse zu binden, also man kann nur Objekte dieser Klasse erzuegen wenn die ?u?ere Klasse bereits instanziiert wurde.  
 `class Schule{`  
     `// innere Klasse`  
     `public static class Schueler{`  
@@ -1166,7 +1170,7 @@ Die statischen inneren Klassen können dazu verwendet werden, selbst definierte O
 `}`  
 `Schule.Schueler hans = Shcule.new Schueler();`  
 
-Hier kann man nun auch innerhalb der äußeren Klasse von der inneren Klasse Objekte erzeugen.  
+Hier kann man nun auch innerhalb der ?u?eren Klasse von der inneren Klasse Objekte erzeugen.  
 `class Schule{`  
     `// innere Klasse`  
     `public static class Schueler{`  
@@ -1177,7 +1181,7 @@ Hier kann man nun auch innerhalb der äußeren Klasse von der inneren Klasse Objek
     `}`  
 `}`  
 ## Innere Klassen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Mit den normalen inneren Klassen kann man das Objekt welches instanziiert wird an die äußere Klasse binden.  
+Mit den normalen inneren Klassen kann man das Objekt welches instanziiert wird an die ?u?ere Klasse binden.  
 `class Schule{`  
     `public class Schueler{`  
         `int alter;`  
@@ -1194,7 +1198,7 @@ Mit den normalen inneren Klassen kann man das Objekt welches instanziiert wird a
     `}`  
 `}`  
 ## Anonyme innere Klassen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Die anonymen inneren Klassen werden bspw. im Zusammenhang mit den Methodenköpfen in einer abstrakten Klasse verwendet und werden nur ein einziges mal initalisiert, deklrariert, verwendet und dann wieder vom Speicher freigegeben.   
+Die anonymen inneren Klassen werden bspw. im Zusammenhang mit den Methodenk?pfen in einer abstrakten Klasse verwendet und werden nur ein einziges mal initalisiert, deklrariert, verwendet und dann wieder vom Speicher freigegeben.   
 `abstract class Schule{`  
     `public string name;`  
     `protected int anzahlSchueler;`  
@@ -1213,12 +1217,12 @@ Die anonymen inneren Klassen werden bspw. im Zusammenhang mit den Methodenköpfen
 Die Module kapseln den Code so, dass man ihn in anderen Projekten verwenden kann.  
 `namespace`(C#) o. `package`(Java) o. "Datei"(Python)  
 
-Diese Module können unterschiedlich eingebunden werden.  
+Diese Module k?nnen unterschiedlich eingebunden werden.  
 `#include`(C/C++) o. `import`(Java) o. `using`(C#)
 
-Wenn man ein bestimmtes Modul einbindet, kann man direkt von diesem erben. Man kann auch Funktionen und Methoden verwenden, als wären sie im eigenen Projekt.  
+Wenn man ein bestimmtes Modul einbindet, kann man direkt von diesem erben. Man kann auch Funktionen und Methoden verwenden, als w?ren sie im eigenen Projekt.  
 
-String sind bspw- nicht standardmäßig in jeder Programmiersprache integriert, weswegen hier Module eingebunden werden müssen.  
+String sind bspw- nicht standardm??ig in jeder Programmiersprache integriert, weswegen hier Module eingebunden werden m?ssen.  
 ## Dynamic vs Static Scoping [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Beim Static Scoping werden immer erst die Variablen und Inhalte verwendet, die innerhalb des selben Scopes(Codeblock) liegen.  
 `int a = 42;`  
@@ -1234,9 +1238,9 @@ Beim Static Scoping werden immer erst die Variablen und Inhalte verwendet, die i
 
 Hier wird in der `foo();`-Funktion die Variable `a` aus dem kompletten Datei-Scope verwendet, da dies die naheliegenste Initialisierung und Deklaration von `a` ist. Also `a = 42`.  
 
-Beim Dynamic-Scoping würde hier die Variable tatsächlich überschrieben werden. Es würde also in der Funktion `bar();` die Variable `a` mit dem Wert `a = 1337` verwendet werden.  
+Beim Dynamic-Scoping w?rde hier die Variable tats?chlich ?berschrieben werden. Es w?rde also in der Funktion `bar();` die Variable `a` mit dem Wert `a = 1337` verwendet werden.  
 ## Mixins [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Bei Mixins kann eine Klasse ohn Type Casting mit zwei oder mehr Klassentypen deklarriert werden, sodass man bspw. in einer Funktion die verscheiden Klassentypen zurückggeben kann.  
+Bei Mixins kann eine Klasse ohn Type Casting mit zwei oder mehr Klassentypen deklarriert werden, sodass man bspw. in einer Funktion die verscheiden Klassentypen zur?ckggeben kann.  
 `class Maybe(a) = Just(a) | Nothing;`  
 `class Just {`  
     `float a;`  
@@ -1252,7 +1256,7 @@ Bei Mixins kann eine Klasse ohn Type Casting mit zwei oder mehr Klassentypen dek
     `}`  
 `}`  
 
-Hier wird das neue Objekt `Nothing();` zurück gegeben, falls diue Variable `b` einen Wert von 0 hat und damit nicht durch 0 geteilt wird. Ist die Variable `b` nicht 0 so ist der Rückgabewert ein neues Objket der Klasse `Just();`.  
+Hier wird das neue Objekt `Nothing();` zur?ck gegeben, falls diue Variable `b` einen Wert von 0 hat und damit nicht durch 0 geteilt wird. Ist die Variable `b` nicht 0 so ist der R?ckgabewert ein neues Objket der Klasse `Just();`.  
 ## Generics [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Generische Klassen haben Typparameter `<T>`, die immer einen anderen Typ haben k?nnen, bspw. den Typ `int`.  
 
@@ -1281,4 +1285,62 @@ Generische Funktionen nutzt man so wie normal Methoden, man hier aber den Typ `<
 `String[] meinArray = {"verstecke champion", ";", "seit 1958"};`  
 `meinArray = sort(meinArray);`  
 
-Hier muss kein Variablentyp ?bergeben werden, da dieser unter der Haube mit ?bergeben wird.  
+Hier muss kein Variablentyp übergeben werden, da dieser unter der Haube mit ?bergeben wird.  
+## Typschranken [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Mit Typschranken kann man den Typen `T` den man bei Generics übergibt auf eine Auswahl von Typen begrenzen.  
+`function T[] sort<T extends String>(T element){`  
+    `return element.split(' ');`  
+    `//...`  
+`}`  
+
+Hier wird der Typ `T` auf das Objekt `String` und deren verebten Klassen begrenzt, es kann also nur einer dieser Typen an die generische Funktion übergeben werden. Dadurch kann man hier auch die `split()`-Methode aus der String-Klasse verwenden, da man sicher sein kann das diese exisitert.  
+## Prozesse und Threads [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Normalerweise startet ein Programm auf einem Computer als Prozess mit bspw. folgenden Inhalten.  `CODE|DATA|FILES|`  
+
+Diese Inhalte können auch auf Threads mit folgendne Inhalten aufgeteilt und quasi parallel ausgeführt werden.  
+`THREAD1: REGISTER|STACK`
+`THREAD2: REGISTER|STACK`
+
+Es gibt Programmiersprachen die nur mehrere Prozesse erzeugen ("Forken") und keine Threads erzeugen und umgekehrt genauso.  
+
+Threads haben an sich immer einen Status.  
+`new Thread()-----> New`  
+`<----start()-----> Runnable`  
+`<----run()-------> Running`  
+`<----sleep()-----> Waiting // Hier kann die feste Dauer übergeben werden`  
+`<----wait()-----> Waiting // Hier wird so lange gewartet bis wieder der Befehl notifiy() ausgeführt wird`  
+`<----notify()-----> Running`  
+`<----return/SIGKILL()-----> DEAD // Thread wird gelöscht/entfernt`  
+## Threads erstellen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Um Threads erstellen zu können, benötigt man meistens eine Bibliothek.  
+`Runnable`(Java) o. `Thread`(Python) o. `Threading`(C#)  
+
+In Java muss man von `Runnable` erben und die `run()`-Methode überschreiben.  
+`import Thread`  
+`class MyThread implements Thread{`  
+    `public function void run(){`  
+        `for(int i = 0;i < 1000000;i++){`  
+            `print(i);`  
+        `}`  
+    `}`  
+`}`  
+`Thread t = new MyThread(); // Erstellt den Thread und startet ihn automatisch.`  
+`t.run(); // Ändert den Status zu Running`  
+`exit(0); // Beendet den Thread`  
+
+Je nach Programmierpsrach muss man den Thread nach der Initialisierung manuel starten und meistens läuft eine zweiter Thread der mit erstellt wurde nach dem beenden des ersten Threads weiter.  
+## Nebenläufigkeit von Threads [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Falls man mehrere Threads gleichzeitig instanziiert, kann man als Programmierer nicht sicher sein, welcher jetzt wann und an welcher Stelle durchläuft, da diese immer unterschiedlich druchlaufen werden.  
+`import Thread`  
+`class MyThread implements Thread{`  
+    `public function void run(){`  
+        `for(int i = 0;i < 10;i++){`  
+            `print(i);`  
+        `}`  
+    `}`  
+`}`  
+`Thread t = new MyThread();`  
+`Thread t12 = new MyThread();`  
+`t.run();`  
+`exit(0);`  
+`Ausgabe: 01234012356897894567`  
