@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "beaeNderq9Rriifn3BXXqJEjJa5EMSP5vD2N6pRDa5vUJfB4gWbXWwqhodIuOFXaJ2dY0iqOWmpEijce50SnYA==",
+  "success": true,
+  "projectFilePath": "D:\\Autodidaktisches Lernen\\Test-Anwendungen\\Threads\\Threads.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stumpe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
