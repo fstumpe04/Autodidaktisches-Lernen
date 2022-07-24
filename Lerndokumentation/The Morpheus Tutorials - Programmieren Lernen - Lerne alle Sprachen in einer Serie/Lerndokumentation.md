@@ -68,7 +68,12 @@
 67. Typschranken
 68. Prozesse und Threads
 69. Threads erstellen
-70. Nebenläufigkeit von Threads
+70. Nebenläufigkeit von Threads 
+71. Atomare Operationen
+72. synchronized
+73. locks
+74. Semaphoren
+75. Deadlocks
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -81,8 +86,8 @@ haben die selbe Semantik.
 ## Variablen und der Codefluss [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Variablen
 Variablen werden in einer Programmiersprache dazu verwendet, sie im Arbeitsspeicher (RAM = Random-Access Memory) zu speichern und im weiteren Verlauf der Durchf?hrung des Programms zu verwenden.  
-`int a = 5;`
-`print (a); // W?rde 5 ausgeben`
+`int a = 5;`  
+`print (a); // W?rde 5 ausgeben`  
 `a = 10;`
 `print (a); // W?rde 10 ausgeben`
 
@@ -1344,3 +1349,32 @@ Falls man mehrere Threads gleichzeitig instanziiert, kann man als Programmierer 
 `t.run();`  
 `exit(0);`  
 `Ausgabe: 01234012356897894567`  
+## Atomare Operationen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Atomare Operationen sorgen dafür, dass wenn eine globale Variable innerhalb eines Threads gelesen oder ersetzt wird, der Thread nicht unterbrochen wird.  
+
+Das gilt auch für alle primitiven Datentypen, die bereits in der Programmiersprache enthalten sind.
+## synchronized [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Eine `synchronized`-Funktion sorgt innerhalb eines Threads dafür, dass der komplette Inhalt der Funktion im ganzen ausgeführt wird. Dieses Konzept wird auch "Thread save" genannt.
+## locks [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Ein `Lock`-Objekt sorgt auch dafür, dass der geschriebene Code nur aif einem Thread ausgeführt wird, stoppt aber auch alle anderen Threads.  
+
+Das kann dzau führen, dass die Laufzeit länger dauert, als wenn man nur einen Thread erstellt, der den Code ausführt.  
+`import Thread`  
+`class MyThread implements Thread{`  
+    `public function void run(){`  
+        `for (int i = 0;i < 10;i++>){`  
+            `l.acquire();`  
+            `print(i);`  
+            `l.release();`  
+        `}`  
+    `}`  
+`}`  
+`Lock l = new Lock();`
+## Semaphoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Mit dem `Semaphoren`-Objekt kann man bestimmen, auf wie viele Threads man gerade zugreifen kann bzw. wie viele man gerade verwenden möchte. Man hat also `Lock`-Objkete, was wiederum heisst, das 1 `Semaphor`-Objekt == `Lock`-Objekt ist.  
+
+Dieses Konzept nutzt man wenn man bspw. ein System nicht mit zu vielen Threads überlasten möchte.
+## Deadlocks [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Ein Deadlock also ein nicht verwendebarer Thread entsteht bspw. wenn man das selbe `Lock`-Objekt doppelt erwirbt. Dadruch kann man nämlich das erste erworbene `Lock`-Objekt nicht veröffentlichen.  
+
+Am besten sollte man also immer erst ein `Lock`-Objekten veröffentlichen, bevor man ein neues oder das selbe `Lock`-Objekt erwirbt.  
