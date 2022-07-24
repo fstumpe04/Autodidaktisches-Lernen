@@ -1,5 +1,5 @@
 # Lerndokumentation [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-1. Syntax (Zusammenf?gungsregeln von Zeichen)
+1. Syntax (Zusammenfügungsregeln von Zeichen)
 2. Semantik (Interpretationsregeln)
 3. Variablen
 4. Codefluss
@@ -9,8 +9,8 @@
 8. Short - Ganzzahlen
 9. Integer - Ganzzahlen
 10. Long, Long Long oder BigInteger - Ganzzahlen
-11. Float - Flie?kommazahlen
-12. Double - Flie?kommazahlen
+11. Float - Fließkommazahlen
+12. Double - Fließkommazahlen
 13. Buchstaben - Character
 14. Kommentare
 15. Arrays
@@ -49,9 +49,9 @@
 48. TypeCasts 
 49. instanceof
 50. typeof
-51. ?berschreiben von Methoden
+51. überschreiben von Methoden
 52. Enums
-53. Operatoren ?berschreiben 
+53. Operatoren überschreiben 
 54. Super
 55. Interfaces
 56. Mehrfachvererbung und das Diamantenproblem
@@ -70,10 +70,10 @@
 69. Threads erstellen
 70. Nebenläufigkeit von Threads
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-### Syntax (Zusammenf?gungsregeln von Zeichen)
+### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
 ### Semantik (Interpretationsregeln)
-Die Semantik ist die Bedeutung die der Quelltext hat, bzw. ist es das was der Quelltext in wirklichkeit ausf?hrt.  
+Die Semantik ist die Bedeutung die der Quelltext hat, bzw. ist es das was der Quelltext in wirklichkeit ausführt.  
 `int a = 5;`  
 und  
 `a = 5`   
@@ -158,7 +158,7 @@ Die h?chste nuint gr??e lautet: 18446744073709551615
 ## Flie?kommazahlen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Float - Flie?kommazahlen
 Werden immer mit einem `.` getrennt und durch Exponenten dargestellt.  
-Beispiel: 2147*1-³ = 2.147 u. 11100111001*2-5 = 111001.11001  
+Beispiel: 2147*1- = 2.147 u. 11100111001*2-5 = 111001.11001  
 Im Rechner wird IEEE754 zum umrechnen von Flie?kommazahlen genutzt.  
 Generel sind Flie?kommazahlen eeher ungenau, da wenn man bspw. folgende Variable deklariert
 `double a = 0.7;`  
@@ -1285,19 +1285,19 @@ Generische Funktionen nutzt man so wie normal Methoden, man hier aber den Typ `<
 `String[] meinArray = {"verstecke champion", ";", "seit 1958"};`  
 `meinArray = sort(meinArray);`  
 
-Hier muss kein Variablentyp übergeben werden, da dieser unter der Haube mit ?bergeben wird.  
+Hier muss kein Variablentyp bergeben werden, da dieser unter der Haube mit ?bergeben wird.  
 ## Typschranken [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Mit Typschranken kann man den Typen `T` den man bei Generics übergibt auf eine Auswahl von Typen begrenzen.  
+Mit Typschranken kann man den Typen `T` den man bei Generics bergibt auf eine Auswahl von Typen begrenzen.  
 `function T[] sort<T extends String>(T element){`  
     `return element.split(' ');`  
     `//...`  
 `}`  
 
-Hier wird der Typ `T` auf das Objekt `String` und deren verebten Klassen begrenzt, es kann also nur einer dieser Typen an die generische Funktion übergeben werden. Dadurch kann man hier auch die `split()`-Methode aus der String-Klasse verwenden, da man sicher sein kann das diese exisitert.  
+Hier wird der Typ `T` auf das Objekt `String` und deren verebten Klassen begrenzt, es kann also nur einer dieser Typen an die generische Funktion bergeben werden. Dadurch kann man hier auch die `split()`-Methode aus der String-Klasse verwenden, da man sicher sein kann das diese exisitert.  
 ## Prozesse und Threads [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Normalerweise startet ein Programm auf einem Computer als Prozess mit bspw. folgenden Inhalten.  `CODE|DATA|FILES|`  
 
-Diese Inhalte können auch auf Threads mit folgendne Inhalten aufgeteilt und quasi parallel ausgeführt werden.  
+Diese Inhalte knnen auch auf Threads mit folgendne Inhalten aufgeteilt und quasi parallel ausgefhrt werden.  
 `THREAD1: REGISTER|STACK`
 `THREAD2: REGISTER|STACK`
 
@@ -1307,15 +1307,15 @@ Threads haben an sich immer einen Status.
 `new Thread()-----> New`  
 `<----start()-----> Runnable`  
 `<----run()-------> Running`  
-`<----sleep()-----> Waiting // Hier kann die feste Dauer übergeben werden`  
-`<----wait()-----> Waiting // Hier wird so lange gewartet bis wieder der Befehl notifiy() ausgeführt wird`  
+`<----sleep()-----> Waiting // Hier kann die feste Dauer bergeben werden`  
+`<----wait()-----> Waiting // Hier wird so lange gewartet bis wieder der Befehl notifiy() ausgefhrt wird`  
 `<----notify()-----> Running`  
-`<----return/SIGKILL()-----> DEAD // Thread wird gelöscht/entfernt`  
+`<----return/SIGKILL()-----> DEAD // Thread wird gelscht/entfernt`  
 ## Threads erstellen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Um Threads erstellen zu können, benötigt man meistens eine Bibliothek.  
+Um Threads erstellen zu knnen, bentigt man meistens eine Bibliothek.  
 `Runnable`(Java) o. `Thread`(Python) o. `Threading`(C#)  
 
-In Java muss man von `Runnable` erben und die `run()`-Methode überschreiben.  
+In Java muss man von `Runnable` erben und die `run()`-Methode berschreiben.  
 `import Thread`  
 `class MyThread implements Thread{`  
     `public function void run(){`  
@@ -1325,12 +1325,12 @@ In Java muss man von `Runnable` erben und die `run()`-Methode überschreiben.
     `}`  
 `}`  
 `Thread t = new MyThread(); // Erstellt den Thread und startet ihn automatisch.`  
-`t.run(); // Ändert den Status zu Running`  
+`t.run(); // ndert den Status zu Running`  
 `exit(0); // Beendet den Thread`  
 
-Je nach Programmierpsrach muss man den Thread nach der Initialisierung manuel starten und meistens läuft eine zweiter Thread der mit erstellt wurde nach dem beenden des ersten Threads weiter.  
-## Nebenläufigkeit von Threads [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Falls man mehrere Threads gleichzeitig instanziiert, kann man als Programmierer nicht sicher sein, welcher jetzt wann und an welcher Stelle durchläuft, da diese immer unterschiedlich druchlaufen werden.  
+Je nach Programmierpsrach muss man den Thread nach der Initialisierung manuel starten und meistens luft eine zweiter Thread der mit erstellt wurde nach dem beenden des ersten Threads weiter.  
+## Nebenlufigkeit von Threads [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Falls man mehrere Threads gleichzeitig instanziiert, kann man als Programmierer nicht sicher sein, welcher jetzt wann und an welcher Stelle durchluft, da diese immer unterschiedlich druchlaufen werden.  
 `import Thread`  
 `class MyThread implements Thread{`  
     `public function void run(){`  
