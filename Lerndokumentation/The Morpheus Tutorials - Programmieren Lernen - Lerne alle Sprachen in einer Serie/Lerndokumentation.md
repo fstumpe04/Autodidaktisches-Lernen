@@ -74,6 +74,7 @@
 73. locks
 74. Semaphoren
 75. Deadlocks
+76. Concurrent Programming Languages
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1378,3 +1379,7 @@ Dieses Konzept nutzt man wenn man bspw. ein System nicht mit zu vielen Threads ü
 Ein Deadlock also ein nicht verwendebarer Thread entsteht bspw. wenn man das selbe `Lock`-Objekt doppelt erwirbt. Dadruch kann man nämlich das erste erworbene `Lock`-Objekt nicht veröffentlichen.  
 
 Am besten sollte man also immer erst ein `Lock`-Objekten veröffentlichen, bevor man ein neues oder das selbe `Lock`-Objekt erwirbt.  
+## Concurrent Programming Languages [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Nebenläufige Programmierpsrachen wie bspw. OpenCL werden direkt mit Multithreading ausgeführt, dass heisst man muss angeben wie viele Threads man nutzen möchte und man muss Locks bzw. Semaphoren nutzen um einen selbstgesteuerten und nicht zufälligen Programmablauf zu haben.  
+
+Die Threads können in solchen Programmiersprachen meistens schnell erstellet werden.
