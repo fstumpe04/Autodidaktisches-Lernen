@@ -74,7 +74,8 @@
 73. locks
 74. Semaphoren
 75. Deadlocks
-76. Concurrent Programming Languages
+76. Concurrent Programming Languages 
+77. Actors und Message Passing
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1382,4 +1383,17 @@ Am besten sollte man also immer erst ein `Lock`-Objekten veröffentlichen, bevor 
 ## Concurrent Programming Languages [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Nebenläufige Programmierpsrachen wie bspw. OpenCL werden direkt mit Multithreading ausgeführt, dass heisst man muss angeben wie viele Threads man nutzen möchte und man muss Locks bzw. Semaphoren nutzen um einen selbstgesteuerten und nicht zufälligen Programmablauf zu haben.  
 
-Die Threads können in solchen Programmiersprachen meistens schnell erstellet werden.
+Die Threads können in solchen Programmiersprachen meistens schnell erstellet werden.  
+## Actors und Message Passing [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Actors werden meistens von der Programmiersprache mit geliefert und werden dazu genutzt um Message Passing zu betreiben, also um Nachricht zu senden.  
+`class MyActor extends Actor{`  
+    `void function onReceive(object o){`  
+        `String nachricht = (String)o;`  
+    `}`  
+`}`  
+`MyActor m = new MyActor();`  
+`m.send("Hallo");`  
+
+Hier wird ein `String` an den `Actor` gesendet, sodass er innerhalb der von Actor geerbten Klasse verwendet werden kann.  
+
+Unter der Haube hat der Actor seinen eigenen Thread und wartet permanent auf eine gesendete Nachricht, um sie zu bearbeiten.  
