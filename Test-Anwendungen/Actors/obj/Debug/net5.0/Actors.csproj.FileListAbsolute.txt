@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\bin\Debug\net5.0\Actors.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\bin\Debug\net5.0\Actors.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\bin\Debug\net5.0\Actors.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\bin\Debug\net5.0\Actors.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\bin\Debug\net5.0\Actors.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\bin\Debug\net5.0\Actors.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\refint\Actors.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\Actors.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Actors\obj\Debug\net5.0\ref\Actors.dll
