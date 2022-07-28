@@ -77,6 +77,7 @@
 76. Concurrent Programming Languages 
 77. Actors und Message Passing
 78. Events
+79. Event Driven Development
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1404,3 +1405,12 @@ Events werden dazu gebraucht um zwischen Threads hin und her signalisieren zu kö
 Hierbei wird die `wait()`-Methode dazu verwendent, einen Thread zu pausieren, was dafür sorgt, dass diese dauerhaft aquired ist. `notify()` wird dazu verwendet um Threads zu benachrichtigen, dass bspw. ein neues Element folgt. Mit `sleep()` wird wie bei `wait()` pausiert nur kann man hier angeben wie lange pausiert werden soll. Und `join()` sorgt dafür das der Parenthread(der Thread außerhalb des derzeit benutzten Threads), gestoppt wird, bis der gerade aufgerufene Thread durchlaufen wurde.  
 
 Letzteres funktioniert also ähnlich wie ein `sleep()`, deswegen sollte man auch nur eins von beiden verwenden, da man sonst ein Deadlock konstruiert.  
+## Event Driven Development [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Event Driven Development muss von der Porgrammiersprach unterstützt werden und wird in hraphischen Oberflächen dzau genutzt, dass Methoden ausgeführt werden, wenn sich irgend etwas in der GUI ändert bzw. wenn etwas geklickt wird.  
+`class Main extend GUI{`  
+    `onKeyEnter(Key c){`  
+        `print(Key.toString());`  
+    `}`  
+`}`  
+
+Hier wird `Key c` ausgeben, wenn sie gedrückt wird.  
