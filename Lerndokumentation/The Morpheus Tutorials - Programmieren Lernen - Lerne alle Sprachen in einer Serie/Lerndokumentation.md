@@ -78,6 +78,7 @@
 77. Actors und Message Passing
 78. Events
 79. Event Driven Development
+80. Debugging und Breakpoints
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1414,3 +1415,9 @@ Event Driven Development muss von der Porgrammiersprach unterstützt werden und w
 `}`  
 
 Hier wird `Key c` ausgeben, wenn sie gedrückt wird.  
+## Debugging und Breakpoints [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Mit einem Debugger kann man in so gut wie jeder IDE mit Breakpoints seinen Code Zeile für Zeile debuggen. Dadurch kann man sehr gut Fheler in seinem Code finden.  
+
+Breakpoints kann man meistens einmal pro Zeile setzten, sodass man wenn man das Debugging startet, direkt zu dem 1. Breakpoint springt.  
+
+Ab hier kann man verschiedene Möglichkeiten weiter fortzufahren. Man kann bspw. den Code nochmal ausführen, den Code weiter ausführen, die Ausführung des Codes abbrechen und sogar Variablenihnalte einsehen und zur Laufzeit für die weiter Codedurchführung ab ändern.  
