@@ -6,7 +6,19 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] meinArray = {1,2};
+            try
+            {
+                System.Console.WriteLine(meinArray[2]);
+            }
+            catch (System.Exception e)
+            {
+                System.Console.WriteLine(e);
+            }
+            finally
+            {
+                System.Console.WriteLine("hallo");
+            }
         }
     }
 }
