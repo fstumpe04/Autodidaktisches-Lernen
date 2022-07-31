@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\bin\Debug\net5.0\Dateien.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\bin\Debug\net5.0\Dateien.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\bin\Debug\net5.0\Dateien.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\bin\Debug\net5.0\Dateien.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\bin\Debug\net5.0\Dateien.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\bin\Debug\net5.0\Dateien.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\refint\Dateien.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\Dateien.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Dateien\obj\Debug\net5.0\ref\Dateien.dll
