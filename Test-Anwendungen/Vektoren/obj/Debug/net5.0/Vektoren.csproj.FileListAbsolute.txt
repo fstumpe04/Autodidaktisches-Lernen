@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\bin\Debug\net5.0\Vektoren.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\bin\Debug\net5.0\Vektoren.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\bin\Debug\net5.0\Vektoren.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\bin\Debug\net5.0\Vektoren.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\bin\Debug\net5.0\Vektoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\bin\Debug\net5.0\Vektoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\refint\Vektoren.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\Vektoren.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Vektoren\obj\Debug\net5.0\ref\Vektoren.dll
