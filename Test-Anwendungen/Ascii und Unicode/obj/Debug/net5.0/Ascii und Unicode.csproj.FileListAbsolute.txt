@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\bin\Debug\net5.0\Ascii und Unicode.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\bin\Debug\net5.0\Ascii und Unicode.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\bin\Debug\net5.0\Ascii und Unicode.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\bin\Debug\net5.0\Ascii und Unicode.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\bin\Debug\net5.0\Ascii und Unicode.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\bin\Debug\net5.0\Ascii und Unicode.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\refint\Ascii und Unicode.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\Ascii und Unicode.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\Ascii und Unicode\obj\Debug\net5.0\ref\Ascii und Unicode.dll

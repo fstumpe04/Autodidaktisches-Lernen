@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yZ1qtB1eM32+WNpsID7KcNBWrgqqNncdz9Ub2Pr9IYP05Cv3A3hPUnJ2JFa9tFD5k869Cy3k47WdsaCiN3SAYQ==",
+  "success": true,
+  "projectFilePath": "D:\\Autodidaktisches Lernen\\Test-Anwendungen\\Ascii und Unicode\\Ascii und Unicode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stumpe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
