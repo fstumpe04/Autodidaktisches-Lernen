@@ -86,7 +86,9 @@
 85. Vektoren
 86. Zufall
 87. Dateien
-88. Dateien - Modi
+88. Dateien - Modi 
+89. Ascii
+90. Unicode
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -173,7 +175,7 @@ Die h?chste nint gr??e lautet: 9223372036854775807
 // nuint (unsigned-Variante)
 Die niedrigste nuint gr??e lautet: 0
 Die h?chste nuint gr??e lautet: 18446744073709551615
-## Flie?kommazahlen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+## Fließkommazahlen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Float - Flie?kommazahlen
 Werden immer mit einem `.` getrennt und durch Exponenten dargestellt.  
 Beispiel: 2147*1- = 2.147 u. 11100111001*2-5 = 111001.11001  
@@ -219,7 +221,7 @@ An sich ist ein Character eine Ganzzahl wie ein Byte, also wird er auch mit der 
 
 Buchstaben k?nnen in Zahlen umgewandelt werden und umgekehrt genau so.
 
-Der ASCII-Zeichensatz bildet hier den Standard mit seinen 7 Bit also 127 Zecihen insgesamt.
+Der ASCII-Zeichensatz bildet hier den Standard mit seinen 7 Bit also 127 Zeichen insgesamt.
 
 Hier gibt es auch noch weiter Zeichens?tze wie bspw. Unicode, damit auch Smiles oder ?hnliches abgebildet werden kann.
 
@@ -1538,3 +1540,10 @@ Es gibt verschiedene Modi womit man Dateien instanziieren kann.
 * a+ = a + Lesen mit dem Cursor am Ende der Datei
 
 Um den Cursor in der Datei verschieben zu können, gibt es die `seek()`-Methode der man einen Wert übergeben kann um an die Stelle in der Datei zu springen an der man mit den Cursor springen will.  
+## Ascii [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+[Ascii](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange) (American Standard for Information Interchange) enthält keine Umlaute wie z.B. ä,ö,ü, ist aber super für die englische Sprache, enhält 128 Zeichen und wir meißtens in einem Byte gespeichert.  
+
+### Unicode [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+[Unicode](https://unicode-table.com/de/) ist ein neuerer Zeichensatz der viel mehr Zeichen (ca. 65.000) enthält und damit auch einen höhrenen Speicherbedarf hat.  
+
+Um diesen Zeichensatz in einem String verwenden zu können nutz man `\u` + die Hexadezimalzahl des Zeichens welches man verwenden will.  
