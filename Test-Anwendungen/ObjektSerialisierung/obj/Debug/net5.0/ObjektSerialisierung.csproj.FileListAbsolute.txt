@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\bin\Debug\net5.0\ObjektSerialisierung.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\bin\Debug\net5.0\ObjektSerialisierung.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\bin\Debug\net5.0\ObjektSerialisierung.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\bin\Debug\net5.0\ObjektSerialisierung.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\bin\Debug\net5.0\ObjektSerialisierung.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\bin\Debug\net5.0\ObjektSerialisierung.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\refint\ObjektSerialisierung.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ObjektSerialisierung.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\ObjektSerialisierung\obj\Debug\net5.0\ref\ObjektSerialisierung.dll

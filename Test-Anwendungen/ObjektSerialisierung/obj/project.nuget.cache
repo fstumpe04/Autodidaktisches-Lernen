@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4cx7/wqo+XIujtUeU4zbgv7uhXcwKxZGXwvL5KsGtZj/BMNdWzBAwsejFnnz+RXViF0F1XPMTyeGEboe7heegw==",
+  "success": true,
+  "projectFilePath": "D:\\Autodidaktisches Lernen\\Test-Anwendungen\\ObjektSerialisierung\\ObjektSerialisierung.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stumpe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

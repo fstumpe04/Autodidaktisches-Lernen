@@ -90,6 +90,7 @@
 89. Ascii
 90. Unicode 
 91. Binäre Dateien
+92. Objekt Serialisierung
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1554,3 +1555,16 @@ Binäre Dateien beinhalten Zeichen die innerhalb von einem Byte (0-255) abgebilde
 Bestes Beispiel hierfür sind Bild-Dateien, hier muss man gerade bei JPG-Dateien darauf achten einen JPG-Reader zu verwenden, da dieses Format im Gegensatz zu PNG-Dateien intern komprimiert ist.  
 
 Generell lohnt es sich bei Dateiformaten eher sich in die Dokumentation des jeweiligen Datteiformats einzulesen bevor ma sie verwendet, da es so viele verschiedene gibt. An sich kann man auch einfach ein eigenes Dateiformat mit einer eigen Kodierung entwickeln bzw. verwenden.  
+## Objekt Serialisierung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Bei der Serialisierung eines Objekts speichert man die Instanz einer Klasse in einer Datei, um diese Datei woanders wieder einlesen zu können.  
+`class A implements Serialization{`  
+    `int a = 42;`  
+    `int b = 1337;`  
+`}`  
+`A a = new A();`  
+`File f = new File("meineDatei.png", "w");`  
+`f.write(a.serialize());`  
+
+Hier wird eine Datei bin mit der Instanz `a` beschrieben.  
+
+Jetzt kann man die Datei lesen und die Instanz nutzen.  
