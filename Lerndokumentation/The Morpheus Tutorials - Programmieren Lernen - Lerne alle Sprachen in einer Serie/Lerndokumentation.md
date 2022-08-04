@@ -90,7 +90,8 @@
 89. Ascii
 90. Unicode 
 91. Binäre Dateien
-92. Objekt Serialisierung
+92. Objekt Serialisierung 
+93. XML und JSON
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1568,3 +1569,25 @@ Bei der Serialisierung eines Objekts speichert man die Instanz einer Klasse in e
 Hier wird eine Datei bin mit der Instanz `a` beschrieben.  
 
 Jetzt kann man die Datei lesen und die Instanz nutzen.  
+## XML und JSON [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+XML und JSON sind beliebte Dateiformate zur Serialisierung von Objekten in Dateien.  
+`<xml>`  
+    `<class name = "A">`  
+        `<a>42</a>`  
+        `<b>1337</b>`  
+    `</A>`  
+`<xml>`  
+`class A{`  
+    `int a = 42;`  
+    `int b = 1337;`  
+`}`  
+
+XML wird nicht mehr oft benutzt, dafür aber JSON.  
+`import json`  
+`{`
+    `"meineInstanz":`  
+        `["A":{`  
+            `"a":42,`  
+            `"b":[1337,1338,1339]`  
+        `}]`  
+`}`  
