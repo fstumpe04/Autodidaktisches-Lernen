@@ -91,7 +91,8 @@
 90. Unicode 
 91. Binäre Dateien
 92. Objekt Serialisierung 
-93. XML und JSON
+93. XML und JSON 
+94. Flushing
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1591,3 +1592,15 @@ XML wird nicht mehr oft benutzt, dafür aber JSON.
             `"b":[1337,1338,1339]`  
         `}]`  
 `}`  
+## Flushing [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Flushing wird benötigt um den Buffer bspw. bei Dateien freizugeben.  
+`File f = ...`  
+`int i = 0`  
+`while (true){`  
+    `f.write('a')`  
+    `i++`  
+    `if(i % 1000){`  
+        `f.flash()`  
+    `}`  
+`}`  
+ Hier wird immer bei `i = 1000` der gefüllte Buffer in die Datei geschrieben.  
