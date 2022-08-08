@@ -101,7 +101,8 @@
 100. Fortgeschrittene Funktionale ProgrammierungInferierte Typen
 101. Typinferenz von Funktionen
 102. Funktionen höherer Ordnung
-103. Currying
+103. Currying 
+104. Pattern Matching mit Listen
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1706,3 +1707,16 @@ Beim Currying ruft man eine Funktion in einer Funktion auf, ohne alle Parameter 
     `return addieren(3, param); // return 3 + param`  
 `}`  
 `add_three = addieren(3);`  
+## Pattern Matching mit Listen [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Pattern Matching ist ein funktionaler Switch Case der es bei bspw. bei einer Liste ermöglicht, gewisse Dinge auszuführen, je nach dem wieviele Elemente sich innerhalb der Liste befinden.  
+`liste = [1, 2, 3, 4, 5]`  
+`switch (liste){`  
+    `case[]:`  
+        `print("liste leer");`  
+    `case(x::[]):`  
+        `print("erstes und einziges Element", x);`  
+    `case(x::y::xs):`  
+        `print("erstes und zweites Element", x, y);`  
+    `case(x::xs):`  
+        `print("erstes Element", x);`  
+`}`
