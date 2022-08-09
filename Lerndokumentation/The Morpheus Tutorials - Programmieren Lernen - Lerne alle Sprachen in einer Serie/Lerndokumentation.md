@@ -103,6 +103,7 @@
 102. Funktionen höherer Ordnung
 103. Currying 
 104. Pattern Matching mit Listen
+105. Wildcards mit Pattern Matching
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1719,4 +1720,15 @@ Pattern Matching ist ein funktionaler Switch Case der es bei bspw. bei einer Lis
         `print("erstes und zweites Element", x, y);`  
     `case(x::xs):`  
         `print("erstes Element", x);`  
+`}`
+## Wildcards mit Pattern Matching [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Wildcards werden beim Pattern Matching dazu verwendet, gewisse Elemente über das Pattern auszulassen, die nicht mit behandelt werden.  
+`liste = [1, 2, 3, 4, 5]`  
+`switch (liste){`  
+    `case[]:`  
+        `print("liste leer");`  
+    `case(x::[]):`  
+        `print("erstes und einziges Element", x);`  
+    `case(x::_::xs):`  
+        `print("erstes und alle Element ab dem dritten", x, y);`  
 `}`
