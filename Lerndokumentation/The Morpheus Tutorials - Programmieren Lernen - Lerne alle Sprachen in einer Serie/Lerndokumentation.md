@@ -104,6 +104,7 @@
 103. Currying 
 104. Pattern Matching mit Listen
 105. Wildcards mit Pattern Matching
+106. Pattern Guards
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1731,4 +1732,15 @@ Wildcards werden beim Pattern Matching dazu verwendet, gewisse Elemente über das
         `print("erstes und einziges Element", x);`  
     `case(x::_::xs):`  
         `print("erstes und alle Element ab dem dritten", x, y);`  
+`}`
+## Pattern Guards [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Pattern Guards differenzieren die Abfragen noch mehr, in dem weitere Bedinungen hint dem Case definiert werden können.
+`liste = [1, 2, 3, 4, 5]`  
+`switch (liste){`  
+    `case[]:`  
+        `print("liste leer");`  
+    `case(x::[]):`  
+        `print("erstes und einziges Element", x);`  
+    `case(x::y::xs) y > 3:`  
+        `print("erstes und alle Element ab dem dritten, wenn y größer als 0 ist", x, y);`  
 `}`
