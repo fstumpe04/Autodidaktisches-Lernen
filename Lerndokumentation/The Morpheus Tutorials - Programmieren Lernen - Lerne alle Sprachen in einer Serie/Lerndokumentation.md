@@ -105,6 +105,7 @@
 104. Pattern Matching mit Listen
 105. Wildcards mit Pattern Matching
 106. Pattern Guards
+107. Case Classes
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1744,3 +1745,15 @@ Pattern Guards differenzieren die Abfragen noch mehr, in dem weitere Bedinungen 
     `case(x::y::xs) y > 3:`  
         `print("erstes und alle Element ab dem dritten, wenn y größer als 0 ist", x, y);`  
 `}`
+## Case Classes [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Case Classes können im Rahmen des Pattern Matching, in dem man eine `case class` erstellt die die abzufragenden Inhalte enthält.  
+`case class MyClass{`  
+    `int a;`  
+    `int b;`  
+    `String s;`  
+`}`  
+`MyClass m = MyClass(42, 1337, "hallo");`  
+`switch(m){`  
+    `case MyClass(42, x, _) if x > 1000;`  
+        `print("m hat auf jeden Fall a = 42 und bei b einen Wert > 1000");`  
+`}`  
