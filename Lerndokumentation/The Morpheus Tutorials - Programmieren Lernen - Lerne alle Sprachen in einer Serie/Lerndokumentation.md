@@ -106,6 +106,7 @@
 105. Wildcards mit Pattern Matching
 106. Pattern Guards
 107. Case Classes
+108. Map
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -1756,4 +1757,17 @@ Case Classes können im Rahmen des Pattern Matching, in dem man eine `case class`
 `switch(m){`  
     `case MyClass(42, x, _) if x > 1000;`  
         `print("m hat auf jeden Fall a = 42 und bei b einen Wert > 1000");`  
+`}`  
+## Map [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Die Map-Funktion führt eine Funktion auf jedem Element einer Struktur aus.  
+`l = [1,2,3,4,5,6]`  
+`function foo(x){`  
+    `return x + 2;`  
+`}`  
+`l = map(l,foo);`  
+`function map (list, f ){`  
+    `result = []`  
+    `foreach i in list{`  
+        `result.append(f(i));`  
+    `}`  
 `}`  
