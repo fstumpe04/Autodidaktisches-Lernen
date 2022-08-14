@@ -111,6 +111,9 @@
 110. Unzip
 111. Filter
 112. Reduce
+113. Generatoren
+114. Dekoratoren
+115. List Comprehensions
 ## Einleitung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 ### Syntax (Zusammenfügungsregeln von Zeichen)
 Die Syntax ist das was man im Quelltext auf den ersten Blick sieht. Sie ist von Programmiersprache zu Programmiersprache unterschiedlich und ist das was man sp?ter neu an einer weiteren Programmiersprache lernen muss.
@@ -659,7 +662,7 @@ Diese Funktion kann man nun ?ber den Funktionsnamen und den runden Klammern aufr
 
 Diese Art kennt man auch aus der Mathematik.  
 `f(x) = 2*x`  
-## R?ckgabewerte [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+## Rückgabewerte [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 R?ckgabewerte weerden dazu ben?tigt um etwas von einer Funktion zur?ckgeben zu k?nnen.  
 
 Falls man keinen R?ckgabewert verwenden m?chte, nutzt man hier den Wert `void`.  
@@ -796,7 +799,7 @@ Um nun bspw. einen Integer mit einem Call-by-Reference aufrufen zu k?nnen, gibt 
 
 Somit kann man im Prinzip mehrere R?ckgabewerte aus einer Funktion herausbekommen.
 ## Lazy Evaluation [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Normalerweise wird in Programmiersprachen eine Eager Evaluation durchgef?hrt die daf?r sorgt das immer alle Bestandteile bspw. einer Liste aufgebaut und ausgef?hrt werden bevor man mit einem Index darauf zugreift.  
+Normalerweise wird in Programmiersprachen eine Eager Evaluation durchgeführt die dafür sorgt das immer alle Bestandteile bspw. einer Liste aufgebaut und ausgeführt werden bevor man mit einem Index darauf zugreift.  
 `List list = {42, 1337, sleep(3)}`  
 `print(list[1])`  
 
@@ -1816,3 +1819,40 @@ Mit der Reduce-Funktion wird jedes Element einer Datenstruktur auf ein Element a
     `}`  
     `return b;`  
 `}`  
+## Generatoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Generatoren sind dazu gedacht unendlich lang ausgeführt zu werden, benötigen aber nicht die notwendige Rechenleistung, da sie durch das `yield`-Schlüsselwort angehalten wird.  
+`function foo(){`  
+    `a = 0;`  
+    `b = 1;`  
+    `yield a;`  
+    `yield b;`  
+    `while (true){`  
+        `z = a + b;`  
+        `a = b;`  
+        `b = z;`  
+        `yield z;`  
+    `}`  
+`}`  
+`print(foo()); //0`  
+`print(foo()); //1`  
+`print(foo()); //1`  
+`print(foo()); //2`  
+`print(foo()); //3`  
+
+Hier wird die Funktion immer bis zum yield ausgeführt und dann der Status der Funktion gemerkt.
+## Dekoratoren [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Dekoratoren können dazu genutzten werden um Funktionen durch weitere Funktionen zu erweitern.  
+`function benchmark_dec(f, param){`  
+    `start = time.time();`  
+    `f(param);`  
+    `end = time.time();`  
+    `print(end-start);`  
+`}`  
+`@benchmark_dec`  
+`function foo(){`  
+    `return param;`  
+`}`  
+## List Comprehensions [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+List Comprehensions sind durch Inline-Berechnungen neu erzeugte Listen.  
+`celcius = [40, 41, 42, 30];`  
+`fahrenheit = [((9/5)*x+32+y*x) for x in celcius for y in fib(20)];`  
