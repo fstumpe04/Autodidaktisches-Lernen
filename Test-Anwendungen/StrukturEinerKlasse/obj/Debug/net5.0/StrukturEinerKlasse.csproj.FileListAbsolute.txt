@@ -1,0 +1,16 @@
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\bin\Debug\net5.0\StrukturEinerKlasse.exe
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\bin\Debug\net5.0\StrukturEinerKlasse.deps.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\bin\Debug\net5.0\StrukturEinerKlasse.runtimeconfig.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\bin\Debug\net5.0\StrukturEinerKlasse.runtimeconfig.dev.json
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\bin\Debug\net5.0\StrukturEinerKlasse.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\bin\Debug\net5.0\StrukturEinerKlasse.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.csproj.AssemblyReference.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.AssemblyInfoInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.AssemblyInfo.cs
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.csproj.CoreCompileInputs.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\refint\StrukturEinerKlasse.dll
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.pdb
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\StrukturEinerKlasse.genruntimeconfig.cache
+D:\Autodidaktisches Lernen\Test-Anwendungen\The Morpheus Tutorials - Clean Code Tutorial\StrukturEinerKlasse\obj\Debug\net5.0\ref\StrukturEinerKlasse.dll

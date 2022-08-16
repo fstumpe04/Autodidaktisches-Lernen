@@ -1,5 +1,6 @@
 # Lerndokumentation [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-1. Einführung und Struktur einer Klasse
+1. Einführung und Struktur einer Klasse 
+2. Law of Demeter
 ## Einführung und Struktur einer Klasse [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Gut strukturierter und lesbarer Code erleichtert das Einarbeiten für einen selbst und weitere Programmierer.  
 
@@ -25,4 +26,18 @@ Bei Klassen gibt es ein Uncle Bobs Formating Example, welches Richtlinien für da
         `public set...`  
         `#endregion`  
     `#endregion`  
+`}`  
+## Law of Demeter [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Law of Demeter bedeutet, dass Objekte nur mit Objeketen aus ihrer unmittelbaren Umgebung kommunizieren sollen.  
+<s>`int i = getObjectA().getObjectB().getSomeOtherObject().getArray()[0];`</s>  
+
+Lange Messagechains sollten vermieden werden.  
+`int i = getObjectA();`
+
+`myMethod(param){`  
+    `this.*`  
+    `* = new ...`  
+    `params`  
+    `this.myVariable.*`  
+    `// sonst nur static oder Methodenaufrufe.`
 `}`  
