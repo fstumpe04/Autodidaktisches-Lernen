@@ -1,6 +1,7 @@
 # Lerndokumentation [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 1. Einführung und Struktur einer Klasse 
 2. Law of Demeter
+3. Prinzip der kleinsten Überraschung
 ## Einführung und Struktur einer Klasse [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Gut strukturierter und lesbarer Code erleichtert das Einarbeiten für einen selbst und weitere Programmierer.  
 
@@ -40,4 +41,18 @@ Lange Messagechains sollten vermieden werden.
     `params`  
     `this.myVariable.*`  
     `// sonst nur static oder Methodenaufrufe.`
+`}`  
+## Prinzip der kleinsten Überraschung [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Um sinnvollen und logischen Code zu schreiben, sollte immer nur das in einem Konstrukt getan werden, was auch im Namen des Konstrukts steht.  
+
+`class Immobilienvertrag{`  
+    `private File vertrag;`  
+    `File getVertrag(){`  
+        <s>`launchNuklearMissile();`</s>  
+        `return vertrag;`  
+    `}`  
+`}`  
+
+`enum Date{`  
+    `Montag, Dienstag, Mittwoch, ...`  
 `}`  
