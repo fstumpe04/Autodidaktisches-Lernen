@@ -2,7 +2,8 @@
 1. Einführung und Struktur einer Klasse 
 2. Law of Demeter
 3. Prinzip der kleinsten Überraschung 
-4. Kommentare
+4. Kommentare 
+5. DRY dont repeat yourself
 ## Einführung und Struktur einer Klasse [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
 Gut strukturierter und lesbarer Code erleichtert das Einarbeiten für einen selbst und weitere Programmierer.  
 
@@ -69,4 +70,8 @@ Generell sollte man folgende Dinge im Code kommentieren.
 * Lange und schwer zu verstehende Algorithmen
 * Aufgaben in seinem Code (Nutzen von "TODO" Kommentar-Schlüsselwort)
 
-Man sollte auch keine langen Konstrollstrukturen kommentieren. Statt dessen sollte diese ausgelagert werden.
+Man sollte auch keine langen Konstrollstrukturen kommentieren. Statt dessen sollte diese ausgelagert werden.  
+## DRY dont repeat yourself [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
+Bei "dont repeat yourself" (DRY) geht es darum nicht bzw. weniger zu Copy/Pasten, da die Fehleranfälligkeit dadurch sehr hoch ist.  
+
+Stattdessen sollte man lieber den Code in eine Methode auslagern und diese mehrfach aufrufen.  
