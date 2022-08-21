@@ -8,7 +8,7 @@ You aren't gonna need it (YAGNI, z. dt. Du wirst es nicht brauchen.) bedeutet, d
 
 Wichtig ist also erst die Grundfunktion eines Programms zu entwicklen und dann Features einzubauen.  
 ## Single Responsibility [Programmieren Lernen - Lerne alle Sprachen in einer Serie]
-Single Responsibility ist eins von 5 SOLID-Prinzipien und besagt, das ein Klasse immer nur eine große Funktionalität erfüllen soll.  
+Single Responsibility ist eins von 5 SOLID-Prinzipien und besagt, dass eine Klasse immer nur eine große Funktionalität erfüllen soll.  
 `class myConnector{`  
     `socket connect(..)...`  
     `void terminateConnection(param Socket)`  
