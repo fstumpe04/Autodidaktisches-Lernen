@@ -25,9 +25,10 @@ Quelle: https://entwickler.de/programmierung/10-technische-skills-die-jeder-soft
 ## Spezifisch
 
 1. Programmiersprachen
-
+<s>
 - Allgemein
   - The Morpheus Tutorial Programmieren Lernen - Lerne alle Sprachen in einer Serie https://www.youtube.com/playlist?list=PLNmsVeXQZj7onyAB57T0xqV2ZVSZOo79a
+</s>
 - C#
   - Schrödinger Programmiert C# https://www.rheinwerk-verlag.de/schroedinger-programmiert-c-sharp/
 - Javascript
@@ -62,7 +63,7 @@ Quelle: https://entwickler.de/programmierung/10-technische-skills-die-jeder-soft
 
 3. Codestruktur
 
-- The Morpheus Tutorial Clean Code https://www.youtube.com/playlist?list=PLNmsVeXQZj7ryyZikMDPxxyYxEKtKn0ji
+<s>- The Morpheus Tutorial Clean Code https://www.youtube.com/playlist?list=PLNmsVeXQZj7ryyZikMDPxxyYxEKtKn0ji</s>
 - David Tielke Clean Code https://www.youtube.com/playlist?list=PLl90zba6gg1-5sDLFQOb7bvZ-UdoFHwgp
 
 4. Architektur & Systemdesign
