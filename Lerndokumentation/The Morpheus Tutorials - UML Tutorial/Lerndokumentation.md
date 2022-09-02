@@ -1,7 +1,8 @@
 # Lerndokumentation [UML Tutorial]
 1. Einleitung 
 2. Klassendiagrammen Intro
-3. Vererbung
+3. Vererbung 
+4. Assoziationen
 ## Einleitung [UML Tutorial]
 Die Unified Modelling Language (UML) ist eine standardisitere Sprache für Diagramme die im Software Design genutzt werden.  
 
@@ -24,3 +25,8 @@ Die Vererbung wir bei Klassendiagrammen mit einem Pfeil mit einer durchgezogenen
 Bei Interfaces spricht man von einer Realisierung und nutzt einen Pfeil der mit einer gestrichelten Linie dargestellt wird.  
 
 ![VererbungInterface](../../Bilder/UML/VererbungInterface.png)
+## Assoziationen [UML Tutorial]
+Mit Assoziationen werden Abhängigkeiten zwischen Klassen dargestellt. 
+![Assoziationen](../../Bilder/UML/Assoziationen.png)
+
+Hierbei wird die Rolle(likes/liker) und die Multiplizität(*/*) von der jeweiligen Klasse ausgesehen dargestellt.
