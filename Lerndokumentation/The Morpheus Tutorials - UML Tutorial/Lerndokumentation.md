@@ -2,7 +2,8 @@
 1. Einleitung 
 2. Klassendiagrammen Intro
 3. Vererbung 
-4. Assoziationen
+4. Assoziationen 
+5. Assoziationsklassen
 ## Einleitung [UML Tutorial]
 Die Unified Modelling Language (UML) ist eine standardisitere Sprache für Diagramme die im Software Design genutzt werden.  
 
@@ -30,3 +31,6 @@ Mit Assoziationen werden Abhängigkeiten zwischen Klassen dargestellt.
 ![Assoziationen](../../Bilder/UML/Assoziationen.png)
 
 Hierbei wird die Rolle(likes/liker) und die Multiplizität(*/*) von der jeweiligen Klasse ausgesehen dargestellt.
+## Assoziationsklassen [UML Tutorial]
+Bei Assoziationsklassen wird eine Klasse einer Abhängigkeit zwischen zwei Klassen zugeordnet und dargestellt.  
+![Assoziationsklassen](../../Bilder/UML/Assoziationsklassen.png)
